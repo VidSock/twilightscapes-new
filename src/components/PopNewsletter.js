@@ -107,7 +107,7 @@ const CustomBox = styled.div`
     align-content:center;
     justify-content:center;
 	margin:0 auto;
-      top: 100px;
+      top: 60px;
       left:7%;
       right:7%;
    

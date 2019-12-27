@@ -6,7 +6,11 @@ import ScrollAnimation from 'react-animate-on-scroll'
 
 const CustomBox = styled.div`
 
-
+@media (max-width: 48em) {
+	.image-wrap h1, .image-wrap h2, .image-wrap h3  {font-size:300% !important; border:0px solid red !important;}
+	.image-wrap .news-btn{ margin-top:1rem;}
+	.image-wrap .innerpanel{font-size:70% !important;}
+}
 
 
 `
