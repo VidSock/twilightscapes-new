@@ -8,6 +8,8 @@ import Image from '../Image'
 import { graphql } from 'gatsby'
 import { HTMLContent } from '../Content'
 import Contact from '../Contact-inc'
+import { FaRegAddressCard } from 'react-icons/fa'
+import { GoGear, GoTelescope } from 'react-icons/go'
 import ScrollAnimation from 'react-animate-on-scroll'
 // import PopNewsletter from '../PopNewsletter'
 // import ArticleTemplate from '../ArticleTemplate'
@@ -106,82 +108,112 @@ const HomePageTemplate = ({
 {/* <Intro2 /> */}
 {/* <Intro3 /> */}
 <Intro2 />
-<section className="section split" style={{display:'flex', padding:'2%', position:'relative',}}>
 
-
-
-<ScrollAnimation animateIn="bounceInLeft" delay={0}>
-<div className='container innerpanel' style={{padding:'2% 3%', borderRadius:'12px',}}>
-
-<h1 className='title' style={{textAlign:'center',}}>{title}</h1>
-              
-<div className="content" style={{margin:'0 1% 0 0', padding:'2% 0', borderRadius:'12px',}}>
-
-<h3 className="" style={{textAlign:'center',}}>
-{heading}
-</h3>
-
-</div>
-
-{description}
-
-
-
-</div>
-</ScrollAnimation>
-
-<div className="sidebar" style={{padding:'1%', minWidth:'35%', maxWidth:'35%', marginLeft:'2%',}}>
-    
-    <div style={{position:'sticky', top:'30px', }}>
-
-
-
-
-
-<ScrollAnimation animateIn="bounceInRight" delay={0}>
-
-<div className="container content" style={{margin:'0 0 1rem 0', padding:'2% 0', borderRadius:'10px',}}>
-<h3 className="logotype" style={{textAlign:'center', fontSize:'180%',}}>
-Network
-</h3>
-</div>
-
-
-
-
-    <a href="https://twilightscapes.com" target="_blank" rel="noopener noreferrer" style={{textDecoration:'none', color:'inherit',}}>
-    <Image className="" alt="Todd Lambert Night photos" filename="twilightscapes-button.jpg" />
-    <br />
-    Experience a new style of landscape photography. Explore the unusual and see the Western States all through the eyes of Todd Lambert.
-    <h5 style={{textAlign:'center',}}>Visit Twilightscapes.com</h5></a>
-    
-    <br />
-    <br />
- 
-    
-    
-    <a href="https://urbanfetish.com" target="_blank" rel="noopener noreferrer" style={{textDecoration:'none', color:'inherit',}}>
-    <Image className="" alt="Todd Lambert Night photos" filename="urban-fetish-button.jpg" />
-    <br />
-    Take a walk on the wild side and follow along as Todd Lambert goes in search of the creepiest, freakiest, spookiest abandoned locations you can find anywhere.    
-    <h5 style={{textAlign:'center',}}>Visit UrbanFetish.com</h5></a>
-    </ScrollAnimation>
-    </div>
-    </div>
-
-
-
-
-</section>
-
-<ScrollAnimation animateIn="bounceInUp" delay={0}>
 <div className="outer">
-    <Contact className="container contactform" />
+<ScrollAnimation animateIn="" animateOut="" initiallyVisible={true} animateOnce={true} animatePreScroll={true}>
+<div className="container">
+<div className="content" style={{padding:'1rem 1rem',}}>
+<Image alt="Todd Lambert Web development for photographers" filename="workshop.jpg" /><br />
+<h2>Unique Night Photography</h2>
+<p>Finding obscure locations and unusual subject matter, Todd has excelled at capturing rarely seen moments of time. The night is misunderstood and often feared.  Let his award winning portfolio prove to you that the night is indeed beautiful.</p>
+<br />
+<Link className="special grad" to="/galleries" style={{color:'#fff', textDecoration:'none', display:'flex',  justifyContent:'center', width:'230px',  padding:'3px 1rem 0 1rem', margin:'0 auto',}}>View Galleries <span style={{fontSize:'120%', position:'relative', right:'-8px', top:'0', color:'#fff',}}><GoTelescope /></span></Link>
+
+
+
+</div>
 </div>
 </ScrollAnimation>
-<br />
+
+
+
+
+
+
+<ScrollAnimation animateIn="bounceInUp" animateOut="fadeOut" initiallyVisible={false} animateOnce={true} animatePreScroll={false}>
+<div id="desc" className="container">
+<div className="content" style={{padding:'1rem 1rem', display:'flex', flexDirection:'row',}}>
+
+<div className="stack" style={{width:'60%',}}>
+<h2>Meet Todd Lambert</h2>
+<p>Todd is a new breed of photographer focusing on remote and mostly "unknown" locations such as graveyards and other abandoned places at night. Todd is an adventurous spirit who lives full-time on the road while traveling across the country.
+</p>
+</div>
+
+<div className="stack" style={{width:'40%', margin:'0 0 0 1rem', fontSize:'70%', }}>
+<Image alt="Todd Lambert Web development for photographers" filename="todd.jpg" />Todd Lambert on location
+</div>
+
+</div>
+
+
+<Link className="special grad" to="/about" style={{color:'#fff', textDecoration:'none', display:'flex',  justifyContent:'center', width:'250px',  padding:'3px 1.5rem 0 1rem', margin:'0 auto',}}>More About Todd <span style={{fontSize:'120%', position:'relative', right:'-8px', top:'0', color:'#fff',}}><FaRegAddressCard /></span></Link>
+
+
+</div>
+</ScrollAnimation>
+
+
+
+
+
+
+
+<ScrollAnimation animateIn="bounceInUp" animateOut="fadeOut" initiallyVisible={false} animateOnce={true} animatePreScroll={false}>
+
+<div className="container">
+<div className="content" style={{padding:'1rem 1rem', display:'flex', flexDirection:'row',}}>
+
+<div className="stack" style={{width:'40%', margin:'0 1rem 0 0', fontSize:'70%', }}>
+<Image alt="Todd Lambert Web development for photographers" filename="twilightscapes-rig.jpg" />Subaru Outback with 18-foot Aliner trailer coming out of Hideout Canyon, UT.
+</div>
+< br />
+<div className="stack" style={{width:'60%',}}>
+<h2>Always on the hunt</h2>
+<p>Todd scours the Internet, drives countless miles and lives and works in his unique overlanding road trip setup. You see, Todd is a photographer that specializes in photographing vintage cars, abandoned places and other pieces of unique American history.
+</p>
+</div>
+
+</div>
+
+
+<Link className="special grad" to="/gear" style={{color:'#fff', textDecoration:'none', display:'flex',  justifyContent:'center', width:'200px',  padding:'3px .5rem 0 1rem', margin:'0 auto',}}>Todds Gear <span style={{fontSize:'120%', position:'relative', right:'-4px', top:'0', color:'#fff',}}><GoGear /></span></Link>
+
+
+</div>
+</ScrollAnimation>
+
+
+
+
     
+       
+    <ScrollAnimation animateIn="bounceInUp" animateOut="fadeOut" initiallyVisible={false} animateOnce={true} animatePreScroll={false}>
+    <div className="container" style={{marginTop:'',}}>
+<div className="content" style={{padding:'1rem 1rem 1rem 1rem', display:'flex', flexDirection:'row',}}>
+<h2 className="pitch">Like this site?</h2>
+
+<div>
+<p>Todd builds websites as his day job, and he would love to build your dream site, custom for you.</p>
+
+<p>An ultra-fast website that uses state-of-the-art technology, is super flexible, and modern designed to work great everywhere.</p>
+
+<h3 style={{textAlign:'center',}}>Let Todd build your site today!</h3>
+</div>
+</div>
+</div>
+</ScrollAnimation>
+
+
+<ScrollAnimation animateIn="bounceInUp" animateOut="fadeOut" initiallyVisible={false} animateOnce={true} animatePreScroll={false}>
+    <Contact />
+</ScrollAnimation>
+
+
+</div>
     </div>
+    
+    
     </CustomBox>
   </>
 )

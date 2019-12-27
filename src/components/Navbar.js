@@ -1,14 +1,13 @@
 import React from 'react'
 import { Link } from 'gatsby'
-// import logo from '../img/tw-logo-white.svg'
+import logo from '../img/tw-logo-white.svg'
 import Headroom from "react-headroom"
 import { ThemeToggler } from 'gatsby-plugin-dark-mode'
-import { GoArrowUp } from 'react-icons/go'
-// import { GoTelescope } from 'react-icons/go'
-// import { GoGear } from 'react-icons/go'
+import { GoArrowUp, GoTelescope } from 'react-icons/go'
+import { GoGear } from 'react-icons/go'
 // import { FaQuestionCircle } from 'react-icons/fa'
 // import { AiFillBank } from 'react-icons/ai'
-// import { FaRegAddressCard, FaTelegramPlane } from 'react-icons/fa'
+import { FaRegAddressCard, FaTelegramPlane } from 'react-icons/fa'
 
 // import PopContact from '../components/PopContact'
 // import ScrollAnimation from 'react-animate-on-scroll'
@@ -25,12 +24,10 @@ const Navbar = class extends React.Component {
 <Headroom style={{ zIndex: '5', }}>
     <header className="header">
     
-    <Link to="/" className="logolink" title="Logo - Back To Home" style={{textDecoration:'none',}}>
-    <span className="logofirst">todd</span> <span className="logocolor">lambert</span>
+    <Link to="/" className="logolink" title="Logo - Back To Home">
+    <img className="logo fadeInDown" src={logo} alt="Twilightscapes Logo" />
     </Link>
     
-    
-   
    
 
    
@@ -40,38 +37,11 @@ const Navbar = class extends React.Component {
 
             <ul id="menu" className="menu">
             
-            
-              
-              <li className="grad" style={{position:'relative',}}>
-              <Link className="navbar-item" to="/portfolio" style={{paddingRight:'',}}>
-                Portfolio 
+            <li className="grad" style={{position:'relative',}}>
+              <Link id="galleries" className="navbar-item" to="/galleries"  style={{paddingRight:'50px',}}>
+               Galleries <GoTelescope className="txtshadow" style={{fontSize:'30px', position:'absolute', right:'4px', top:'12px',}}/>
               </Link>
-              </li>
               
-              
-              <li className="grad" style={{position:'relative',}}>
-              <Link className="navbar-item" to="/resume" style={{paddingRight:'',}}>
-                Resume 
-              </Link>
-              </li>
-              
-              
-               {/* <li className="grad" style={{position:'relative',}}>
-                             <Link id="galleries" className="navbar-item" to="/galleries"  style={{paddingRight:'',}}>
-                              Photography 
-                             </Link>
-                             </li> */}
-              
-              <li className="grad" style={{position:'relative',}}>
-              <Link className="navbar-item" to="/about" style={{paddingRight:'',}}>
-                About 
-              </Link>
-              </li>
-              
-              <li className="grad" style={{position:'relative',}}>
-              <Link className="navbar-item" to="/blog" style={{paddingRight:'',}}>
-                Blog 
-              </Link>
               </li>
               
               
@@ -82,15 +52,17 @@ const Navbar = class extends React.Component {
               </li>*/}
               
             
-            {/* <li className="grad" style={{position:'relative',}}>
-                          <Link className="navbar-item" to="/about" style={{paddingRight:'',}}>
-                            About 
-                          </Link>
-                          </li> */}
+            <li className="grad" style={{position:'relative',}}>
+              <Link className="navbar-item" to="/about" style={{paddingRight:'50px',}}>
+                About <FaRegAddressCard className="txtshadow" style={{fontSize:'30px', position:'absolute', right:'10px', top:'15px',}}/>
+              </Link>
+              </li>
               
-              
-              
-              
+               <li className="grad" style={{position:'relative',}}>
+              <Link className="navbar-item" to="/gear" style={{paddingRight:'50px',}}>
+                Gear <GoGear className="txtshadow" style={{fontSize:'30px', position:'absolute', right:'10px', top:'15px',}}/>
+              </Link>
+              </li>
               
               {/* <li>
               <Link className="navbar-item" to="/products">
@@ -107,11 +79,11 @@ const Navbar = class extends React.Component {
               
 
 
-              {/*<li style={{position:'',}}>
+              <li style={{position:'',}}>
              
-             <label className="modal-btn grad" htmlFor="modal-toggle" style={{position:'relative', textShadow: '1px 0px 2px white', paddingRight:'',}}>Contact </label> 
+             <label className="modal-btn grad" htmlFor="modal-toggle" style={{position:'relative', textShadow: '1px 2px 0px black', paddingRight:'20px',}}>Contact <FaTelegramPlane className="contact-icon txtshadow" style={{fontSize:'30px', position:'relative', right:'-6px', top:'12px',}}/></label> 
              
-              </li>*/}
+              </li>
               
               
             </ul>
