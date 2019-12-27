@@ -209,7 +209,7 @@ const NavBar = ({ toggleNavbar, isActive }) => (
               
               <li style={{position:'',}}>
              
-             <label className="modal-btn grad" htmlFor="semitoggle" style={{position:'relative', textShadow: '1px 2px 0px black', paddingRight:'20px',}}> <FaSearch className="contact-icon txtshadow" style={{fontSize:'30px', position:'relative', right:'', top:'12px',}}/></label> 
+             <label className="modal-btn grad" htmlFor="semitoggle" style={{position:'relative', textShadow: '1px 2px 0px black', paddingRight:'20px',}}> <FaSearch className="contact-icon txtshadow" style={{fontSize:'26px', position:'relative', right:'', top:'12px',}}/></label> 
              
               </li>
               
@@ -243,15 +243,15 @@ const NavBar = ({ toggleNavbar, isActive }) => (
 
 
 
-<div className="popsemicontainer" style={{position:'absolute', top:'60px', right:'10%', padding: '0 0', justifyContent:'center', alignItems:'center', marginTop:'0',  height:'auto', flexDirection:'column', zIndex:'4', width:'300px',}}>
+<div className="popsemicontainer" style={{position:'absolute', top:'60px', right:'10%', padding: '0 0', justifyContent:'center', alignItems:'center', marginTop:'0',  height:'auto', flexDirection:'column', zIndex:'4', width:'auto',}}>
 
 
   <input id="semitoggle" type="checkbox" style={{position: 'relative',}} />
   
    
-  <div className="content" style={{width:'', position:'', margin:'0 auto', top:'', textAlign:'center',}}>
+  <div className="content" style={{width:'auto', position:'', margin:'0 auto', top:'', textAlign:'center',}}>
 
-<label className="close" htmlFor="semitoggle" style={{position: 'absolute', right:'5px', top: '5px', fontSize:'24px', cursor:'pointer',}} title="Close this section"><FaTimesCircle /></label>
+<label className="close" htmlFor="semitoggle" style={{position: 'absolute', right:'5px', top: '25px', fontSize:'24px', cursor:'pointer',}} title="Close this section"><FaTimesCircle /></label>
     
 <div className="container" style={{margin:'0', padding:'0px',}}>
     
