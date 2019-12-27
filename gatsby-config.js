@@ -44,12 +44,12 @@ module.exports = {
     resolve: "gatsby-plugin-netlify-cache",
     options: {
       extraDirsToCache: [
-        "img/favorites",
-        "img/gallery1", "img/gallery2", "img/gallery3", "img/gallery4",
-        "img/gallery5", "img/gallery6", "img/gallery7", "img/gallery8",
-        "img/gallery9", "img/gallery10", "img/cars", "img/crazy=geology",
-        "img/daytime", "img/ghosttowns", "img/milky-way", "img/todd",
-        "img/frontpage",
+        "src/img/favorites",
+        "src/img/gallery1", "src/img/gallery2", "src/img/gallery3", "src/img/gallery4",
+        "src/img/gallery5", "src/img/gallery6", "src/img/gallery7", "src/img/gallery8",
+        "src/img/gallery9", "src/img/gallery10", "src/img/cars", "src/img/crazy=geology",
+        "src/img/daytime", "src/img/ghosttowns", "src/img/milky-way", "src/img/todd",
+        "src/img/frontpage",
         "extra/splashscreens"
       ]
     }

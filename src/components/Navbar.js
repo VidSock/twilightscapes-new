@@ -243,7 +243,7 @@ const NavBar = ({ toggleNavbar, isActive }) => (
 
 
 
-<div className="popsemicontainer" style={{position:'absolute', top:'60px', right:'10%', padding: '0 0', justifyContent:'center', alignItems:'center', marginTop:'0',  height:'auto', flexDirection:'column', zIndex:'4', width:'auto',}}>
+<div className="popsemicontainer" style={{position:'absolute', top:'60px', right:'10%', padding: '0 0', justifyContent:'center', alignItems:'center', marginTop:'0',  height:'auto', flexDirection:'column', zIndex:'4', width:'auto', overflow:'hidden',}}>
 
 
   <input id="semitoggle" type="checkbox" style={{position: 'relative',}} />
