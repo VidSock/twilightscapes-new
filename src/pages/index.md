@@ -66,10 +66,9 @@ testimonials:
       Fusce porttitor vulputate enim, nec blandit magna gravida et. Etiam et
       dignissim ligula.  Lorem ipsum dolor sit amet, consectetur adipiscing
       elit.
-meta_title: Todd Lambert | Frontend Web Developer and Night Photographer
+meta_title: Follow Me Into The Night | Unique Photography by Twilightscapes
 meta_description: >-
-  Ultra-fast websites that use state-of-the-art technology, are modern designed
-  and 100% flexible to work great everywhere.
+  Twilightscapes brings new definitions to the genre of night photography. Experience some of the most remote, desolate locations photographed in the dead of night by world renown night photographer Todd Lambert.
 
   Let Todd build your site today!
 ---
