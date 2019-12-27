@@ -7,7 +7,7 @@ import PropTypes from 'prop-types'
 import Image from '../Image'
 import { graphql } from 'gatsby'
 import { HTMLContent } from '../Content'
-import Contact from '../Contact-inc'
+// import Contact from '../Contact-inc'
 import { FaRegAddressCard } from 'react-icons/fa'
 import { GoGear, GoTelescope } from 'react-icons/go'
 import ScrollAnimation from 'react-animate-on-scroll'
@@ -205,9 +205,7 @@ const HomePageTemplate = ({
 </ScrollAnimation>
 
 
-<ScrollAnimation animateIn="bounceInUp" animateOut="fadeOut" initiallyVisible={false} animateOnce={true} animatePreScroll={false} style={{zIndex:'',}}>
-    <Contact />
-</ScrollAnimation>
+
 
 
 </div>
