@@ -21,13 +21,13 @@ const Intro2 = () => (
 
 <CustomBox style={{}}>
 
-<ScrollAnimation animateIn="fadeIn">
+
 <div className="outer">
   
 <div className="image-wrap" style={{position:'relative', overflow:'hidden', paddingTop:'60px', borderBottom:'0px solid #222', borderRight:'0rem solid #dd4400', borderLeft:'0rem solid #dd4400', }}>
   
 
- <div className="" style={{position:'absolute', top:'60px', left:'0', width:'100vw', height:'100vh', overflow:'hidden', padding:'20px 0 0 0', border:'0px solid red', zIndex:'1',}}>
+ <div className="" style={{position:'absolute', top:'60px', left:'0', width:'100vw', height:'100vh', overflow:'hidden', padding:'0 0 0 0', border:'0px solid red', zIndex:'1',}}>
   
   
 
@@ -35,7 +35,7 @@ const Intro2 = () => (
 
   
   
-  <ScrollAnimation animateIn="bounceInDown" delay={1400} offset={0} style={{position:'relative', paddingTop:'0', right:'10%',}}>
+  <ScrollAnimation animateIn="bounceInDown" delay={1400} offset={0}  initiallyVisible={false} animateOnce={true} animatePreScroll={true} style={{position:'relative', paddingTop:'0', right:'10%',}}>
         <h1
           className="boom normal txtshadow-header hit-the-floor"
           style={{
@@ -54,7 +54,7 @@ const Intro2 = () => (
         </ScrollAnimation>
         
         
-  <ScrollAnimation animateIn="bounceInRight" delay={1500} style={{position:'relative', top:'0', right:'10%',}}>
+  <ScrollAnimation animateIn="bounceInRight" delay={1500} initiallyVisible={false} animateOnce={true} animatePreScroll={true} style={{position:'relative', top:'-10px', right:'10%',}}>
         <h2
           className="boom narrow txtshadow mobile-txt"
           style={{
@@ -69,7 +69,7 @@ const Intro2 = () => (
         </ScrollAnimation>
         
         
-  <ScrollAnimation animateIn="bounceInUp" delay={1450} style={{position:'relative', top:'0', right:'10%',}}>
+  <ScrollAnimation animateIn="bounceInUp" delay={1450} initiallyVisible={false} animateOnce={true} animatePreScroll={true} style={{position:'relative', top:'-25px', right:'10%',}}>
         <h3
           className="boom"
           style={{
@@ -87,7 +87,7 @@ const Intro2 = () => (
 
 
         
-<ScrollAnimation animateIn="bounceInRight" delay={2000} style={{position:'relative', top:'-20px', right:'12%', float:'right', display:'inlineBlock', justifyContent:'', alignItems:'center', margin:'0 auto', padding:'30px 0 0 0',  textAlign:'center',}}>
+<ScrollAnimation animateIn="bounceInRight" delay={2500} initiallyVisible={false} animateOnce={true} animatePreScroll={true} style={{position:'relative', top:'-40px', right:'12%', float:'right', display:'inlineBlock', justifyContent:'', alignItems:'center', margin:'0 auto', padding:'0 0 0 0',  textAlign:'center',}}>
    <Newsletter />      
 </ScrollAnimation>
 
@@ -128,7 +128,7 @@ const Intro2 = () => (
 
 </div>
 </div>
-</ScrollAnimation>
+
 
 
 </CustomBox>
