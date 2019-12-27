@@ -16,14 +16,14 @@ import ScrollAnimation from 'react-animate-on-scroll'
 // import { Link } from 'gatsby'
 import styled from 'styled-components'
 // import Intro1 from '../Intro1'
-import Intro2 from '../Intro3'
+import Intro2 from '../Intro2'
 // import Intro3 from '../Intro3'
 
 const CustomBox = styled.div`
 *, *:before, *:after { box-sizing: border-box; }
 
 .intro:before{
-	content: "Todd Leads A Dual-Life";
+	content: "a pioneer in night photography";
 position:absolute;
 display: flex;
 align-items: center;
