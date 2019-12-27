@@ -1,10 +1,10 @@
 module.exports = {
-  siteTitle: 'Todd Lambert | Front-end Web Developer and Night Photographer', // Site title.
+  siteTitle: 'Follow Me Into The Night | Unique Photography by Twilightscapes', // Site title.
   siteTitleAlt: 'Todd Lambert', // Alternative site title for SEO.
   siteLogo: '/icons/icon-512x512.png', // Logo used for SEO and manifest.
-  siteUrl: 'https://toddlambert.com', // Domain of your website without pathPrefix.
+  siteUrl: 'https://twilightscapes.com', // Domain of your website without pathPrefix.
   pathPrefix: '', // Prefixes all links. For cases when deployed to example.github.io/gatsby-starter-business/.
-  siteDescription: 'Ultra-fast websites that use state-of-the-art technology, are flexible and modern designed to work great everywhere. Let Todd build your site today!', // Website description used for RSS feeds/meta description tag.
+  siteDescription: 'Twilightscapes brings new definitions to the genre of night photography. Experience some of the most remote, desolate locations photographed in the dead of night by world renown night photographer Todd Lambert.', // Website description used for RSS feeds/meta description tag.
   siteRss: '/rss.xml',
   siteFBAppID: '', // FB Application ID for using app insights
   googleTagManagerID: '', // GTM tracking ID.
