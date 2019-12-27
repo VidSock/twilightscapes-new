@@ -4,7 +4,7 @@ const pathPrefix = config.pathPrefix === '/' ? '' : config.pathPrefix
 
 const {
   NODE_ENV,
-  URL: NETLIFY_SITE_URL = 'https://toddlambert.netlify.com',
+  URL: NETLIFY_SITE_URL = 'https://twilightscapes.netlify.com',
   DEPLOY_PRIME_URL: NETLIFY_DEPLOY_URL = NETLIFY_SITE_URL,
   CONTEXT: NETLIFY_ENV = NODE_ENV,
 } = process.env
@@ -45,8 +45,11 @@ module.exports = {
     options: {
       extraDirsToCache: [
         "img/favorites",
-        "img/gallery1",
-        "img/gallery6",
+        "img/gallery1", "img/gallery2", "img/gallery3", "img/gallery4",
+        "img/gallery5", "img/gallery6", "img/gallery7", "img/gallery8",
+        "img/gallery9", "img/gallery10", "img/cars", "img/crazy=geology",
+        "img/daytime", "img/ghosttowns", "img/milky-way", "img/todd",
+        "img/frontpage",
         "extra/splashscreens"
       ]
     }

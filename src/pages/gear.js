@@ -1,10 +1,17 @@
 import React from 'react'
 import Layout from '../components/Layout'
+import Helmet from 'react-helmet'
 import ScrollAnimation from 'react-animate-on-scroll'
 
+
+
+    
+    
 const Disclaimer = () => (
+
+    
   <Layout>
-    <section className="outer intro section" style={{paddingTop:'0',}}>
+    <section className="outer intro section" style={{paddingTop:'',}}>
     
 
        

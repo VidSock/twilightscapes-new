@@ -58,7 +58,7 @@ const GalleryMenu = () => (
 <CustomBox style={{}}>
 
 <div className="outer intro" style={{backgroundColor:'#222', borderTop:'1px solid #000',}}>
-      <div className="container1 content" style={{padding:'10px 0 10px 0',}}>
+      <div className="container1 content" style={{padding:'70px 0 10px 0',}}>
     
 <h2 style={{textAlign:'center', fontSize:'80%', margin:'0', padding:'0 0 5px 0', color:'#ddd',}}>Available Galleries <span className="no-app" style={{fontSize:'90%',}}><FaLock /> ( requires free<Link to="/install"> app installation here</Link> )</span></h2>
 
