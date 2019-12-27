@@ -35,7 +35,7 @@ const Intro2 = () => (
 
   
   
-  <ScrollAnimation animateIn="bounceInDown" delay={1400} offset={0} style={{position:'relative', paddingTop:'40px', right:'10%',}}>
+  <ScrollAnimation animateIn="bounceInDown" delay={1400} offset={0} style={{position:'relative', paddingTop:'0', right:'10%',}}>
         <h1
           className="boom normal txtshadow-header hit-the-floor"
           style={{
@@ -102,22 +102,22 @@ const Intro2 = () => (
 
 <div className="" style={{position:'absolute', top:'0', width:'100vw', overflow:'hidden', border:'0px solid red', zIndex:'',}}>
 <ScrollAnimation animateIn="fadeIn">
-<div id="slideshow">
-  <div className="slide-wrapper"  style={{position:'relative', zIndex:'0',}}>
+<div className="image-wrap" style={{position:'relative', overflow:'hidden',}}>
+
   
    
    
-    <div className="slide kenburns-bottom-left" style={{zIndex:'',}}><Image className="slider" alt="Todd Mushroom" filename="night303.jpg" style={{backgroundSize:'cover', zIndex:'', }} /></div>
+    <div className=" kenburns-bottom-left" style={{zIndex:'',}}><Image className="slider" alt="Todd Mushroom" filename="night303.jpg" style={{backgroundSize:'cover', zIndex:'', }} /></div>
     
 
     
-    <div className="slide kenburns-bottom-left" style={{zIndex:'',}}><Image className="slider" alt="Todd Mushroom" filename="night303.jpg" style={{backgroundSize:'cover', zIndex:'', }} /></div>
+
     
 
     
 
    
-  </div>
+
 </div>
 </ScrollAnimation>
         </div>

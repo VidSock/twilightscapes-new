@@ -16,7 +16,7 @@ import ScrollAnimation from 'react-animate-on-scroll'
 // import { Link } from 'gatsby'
 import styled from 'styled-components'
 // import Intro1 from '../Intro1'
-import Intro2 from '../Intro2'
+import Intro2 from '../Intro3'
 // import Intro3 from '../Intro3'
 
 const CustomBox = styled.div`
@@ -205,7 +205,7 @@ const HomePageTemplate = ({
 </ScrollAnimation>
 
 
-<ScrollAnimation animateIn="bounceInUp" animateOut="fadeOut" initiallyVisible={false} animateOnce={true} animatePreScroll={false}>
+<ScrollAnimation animateIn="bounceInUp" animateOut="fadeOut" initiallyVisible={false} animateOnce={true} animatePreScroll={false} style={{zIndex:'',}}>
     <Contact />
 </ScrollAnimation>
 
