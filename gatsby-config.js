@@ -47,7 +47,7 @@ module.exports = {
         "src/img/favorites",
         "src/img/gallery1", "src/img/gallery2", "src/img/gallery3", "src/img/gallery4",
         "src/img/gallery5", "src/img/gallery6", "src/img/gallery7", "src/img/gallery8",
-        "src/img/gallery9", "src/img/gallery10", "src/img/cars", "src/img/crazy=geology",
+        "src/img/gallery9", "src/img/gallery10", "src/img/cars", "src/img/crazy-geology",
         "src/img/daytime", "src/img/ghosttowns", "src/img/milky-way", "src/img/todd",
         "src/img/frontpage"
       ]

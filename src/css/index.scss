@@ -961,8 +961,9 @@ header .logo{float:left; margin-top:0px; padding:4px 0;}
 .searchbox{}
 .navbar-dropdown{background:inherit; padding:4px 1rem; font-size:70%; display: flex; flex-direction: column;}
 .navbar-dropdown a{color:inherit !important; margin:5px 0; text-align: left; }
-.navbar-dropdown a[aria-current]{color:#fff !important;}
-.navbar-dropdown a:before{content:'•';}
+.navbar-dropdown a[aria-current]{color:#fff !important; text-align: center;}
+.navbar-dropdown a:before{content:'⇢'; margin:0 10px 0 0;}
+.navbar-dropdown a[aria-current]:before{content:'' !important;}
 /* 48em = 768px */
 
 @media (max-width: 48rem) {
