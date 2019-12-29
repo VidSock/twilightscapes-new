@@ -53,7 +53,7 @@ const Installer = () => {
       
       <ScrollAnimation animateIn="fadeIn" initiallyVisible={true} delay={100} animateOnce={true} animatePreScroll={true}>
 
-<div className="container" style={{padding:'2rem 1rem', border:'1px solid #000', borderRadius:'8px',}}>
+<div className="container" style={{margin:'2% 10%', padding:'2rem 1rem', border:'1px solid #000', borderRadius:'8px',}}>
 
 
 	

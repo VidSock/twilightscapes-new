@@ -243,20 +243,20 @@ const NavBar = ({ toggleNavbar, isActive }) => (
 
 
 
-<div className="popsemicontainer" style={{position:'absolute', top:'60px', right:'10%', padding: '0 0', justifyContent:'center', alignItems:'center', marginTop:'0',  height:'auto', flexDirection:'column', zIndex:'4', width:'auto', overflow:'hidden',}}>
+<div className="popsemicontainer" style={{position:'absolute', top:'60px', right:'10%', padding: '0 0', justifyContent:'center', alignItems:'center', marginTop:'0',  height:'auto', flexDirection:'column', zIndex:'4', width:'auto', }}>
 
 
   <input id="semitoggle" type="checkbox" style={{position: 'relative',}} />
   
    
-  <div className="content" style={{width:'auto', position:'', margin:'0 auto', top:'', textAlign:'center',}}>
+  <div className="content shadow" style={{width:'auto', position:'', margin:'0 auto', top:'', textAlign:'center', borderRadius:'10px', border:'1px solid',}}>
 
-<label className="close" htmlFor="semitoggle" style={{position: 'absolute', right:'5px', top: '25px', fontSize:'24px', cursor:'pointer',}} title="Close this section"><FaTimesCircle /></label>
+<label className="close" htmlFor="semitoggle" style={{position: 'absolute', right:'10px', top: '34px', fontSize:'20px', cursor:'pointer',}} title="Close this section"><FaTimesCircle /></label>
     
 <div className="container" style={{margin:'0', padding:'0px',}}>
     
 
-    <div className="searchbox" style={{position:'', width:'', padding:'0 1rem 0 0', border:'1px solid', borderRadius:'8px',}}><SearchBox searchIndex={data.siteSearchIndex.index} /></div>
+    <div className="searchbox" style={{padding:'3px 1rem 0 0',}}><SearchBox searchIndex={data.siteSearchIndex.index} /></div>
 
 
  </div>
