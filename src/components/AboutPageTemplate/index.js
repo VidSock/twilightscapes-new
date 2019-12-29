@@ -136,7 +136,7 @@ const AboutPageTemplate = ({ title, content, contentComponent }) => {
 <p style={{position:'relative',}}>My name is Todd Lambert, and this is my story. It all began when the country was a different place, my parents were wanting to have a family, and I was born.
 
 <ScrollAnimation animateIn="fadeIn" animateOnce={false} animatePreScroll={true} delay={1800}> 
-<div className="txtshadow-header" style={{position:'absolute', top:'30px', left:'0', width:'100%', borderBottom:'12px solid ', transform:'rotate(8deg)', textAlign:'center', fontSize:'450%', zIndex:'1',}}><div className="txtshadow-3d" style={{color:'#ff0000', transform:'rotate(-10deg)', fontWeight:'bold',}}>NOPE!</div></div>
+<div className="txtshadow-header" style={{position:'absolute', top:'30px', left:'0', width:'100%', borderBottom:'12px solid ', transform:'rotate(8deg)', textAlign:'center', fontSize:'450%', zIndex:'1',}}><div className="txtshadow-3d" style={{color:'#ff0000', transform:'rotate(-10deg)', fontWeight:'bold', textShadow:' 1px 8px 2px black',}}>NOPE!</div></div>
 <div style={{position:'absolute', top:'30px', left:'0', width:'100%', borderBottom:'12px solid ', transform:'rotate(-8deg)', textAlign:'center',}}> &nbsp;</div>
 </ScrollAnimation> 
 </p>
