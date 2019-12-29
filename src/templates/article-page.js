@@ -6,7 +6,7 @@ import ArticleTemplate from '../components/ArticleTemplate'
 import SE0 from '../components/SEO'
 import Share from '../components/Share'
 import Disqus from '../components/Disqus'
-import Layout from '../components/Layout'
+import Layout from '../components/Layout-noc'
 
 const ArticlePage = ({ data }) => {
   const { markdownRemark: post } = data
@@ -21,7 +21,7 @@ const ArticlePage = ({ data }) => {
           slug={post.fields.slug}
           date={post.frontmatter.date}
         />
-        <div className='container content'>
+        <div className='container content' style={{paddingTop:'50px',}}>
           <div className='columns'>
             <div className='column is-10 is-offset-1'>
               <ArticleTemplate
