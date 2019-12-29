@@ -114,7 +114,7 @@ const HomePageTemplate = ({
 <div className="container">
 <div className="content" style={{padding:'1rem 1rem',}}>
 <Image alt="Todd Lambert Web development for photographers" filename="workshop.jpg" /><br />
-<h2>Unique Night Photography</h2>
+<h2 className="txtshadow-header">Unique Night Photography</h2>
 <p>Finding obscure locations and unusual subject matter, Todd has excelled at capturing rarely seen moments of time. The night is misunderstood and often feared.  Let his award winning portfolio prove to you that the night is indeed beautiful.</p>
 <br />
 <Link className="special grad" to="/galleries" style={{color:'#fff', textDecoration:'none', display:'flex',  justifyContent:'center', width:'230px',  padding:'3px 1rem 0 1rem', margin:'0 auto',}}>View Galleries <span style={{fontSize:'120%', position:'relative', right:'-8px', top:'0', color:'#fff',}}><GoTelescope /></span></Link>
@@ -135,7 +135,7 @@ const HomePageTemplate = ({
 <div className="content" style={{padding:'1rem 1rem', display:'flex', flexDirection:'row',}}>
 
 <div className="stack" style={{width:'60%',}}>
-<h2>Meet Todd Lambert</h2>
+<h2 className="txtshadow-header">Meet Todd Lambert</h2>
 <p>Todd is a new breed of photographer focusing on remote and mostly "unknown" locations such as graveyards and other abandoned places at night. Todd is an adventurous spirit who lives full-time on the road while traveling across the country.
 </p>
 </div>
@@ -169,7 +169,7 @@ const HomePageTemplate = ({
 </div>
 < br />
 <div className="stack" style={{width:'60%',}}>
-<h2>Always on the hunt</h2>
+<h2 className="txtshadow-header">Always on the hunt</h2>
 <p>Todd scours the Internet, drives countless miles and lives and works in his unique overlanding road trip setup. You see, Todd is a photographer that specializes in photographing vintage cars, abandoned places and other pieces of unique American history.
 </p>
 </div>
@@ -190,15 +190,15 @@ const HomePageTemplate = ({
        
     <ScrollAnimation animateIn="bounceInUp" animateOut="fadeOut" initiallyVisible={false} animateOnce={true} animatePreScroll={false}>
     <div className="container" style={{marginTop:'',}}>
-<div className="content" style={{padding:'1rem 1rem 1rem 1rem', display:'flex', flexDirection:'row',}}>
-<h2 className="pitch">Like this site?</h2>
+<div className="content nowrap" style={{padding:'1rem 1rem 1rem 1rem', display:'flex', flexDirection:'row',}}>
+<h2 className="pitch1 txtshadow-header" style={{fontSize:'250%', display:'flex', flexDirection:'column',}}>Like this site?</h2>
 
-<div>
+<div className="nowrap">
 <p>Todd builds websites as his day job, and he would love to build your dream site, custom for you.</p>
 
 <p>An ultra-fast website that uses state-of-the-art technology, is super flexible, and modern designed to work great everywhere.</p>
 
-<h3 style={{textAlign:'center',}}>Let Todd build your site today!</h3>
+<h3 className="txtshadow" style={{textAlign:'center',}}>Let Todd build your site today!</h3>
 </div>
 </div>
 </div>
