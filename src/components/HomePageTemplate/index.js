@@ -165,7 +165,7 @@ const HomePageTemplate = ({
 <div className="content" style={{padding:'1rem 1rem', display:'flex', flexDirection:'row',}}>
 
 <div className="stack" style={{width:'40%', margin:'0 1rem 0 0', fontSize:'70%', }}>
-<Image alt="Todd Lambert Web development for photographers" filename="twilightscapes-rig.jpg" />Subaru Outback with 18-foot Aliner trailer coming out of Hideout Canyon, UT.
+<Image alt="Todd Lambert Web development for photographers" filename="twilightscapes-rig.jpg" />The Twilightscapes Setup: A Subaru Outback with 18-foot Aliner trailer while coming out of Hideout Canyon, UT.
 </div>
 < br />
 <div className="stack" style={{width:'60%',}}>

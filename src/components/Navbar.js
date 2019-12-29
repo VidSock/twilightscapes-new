@@ -202,14 +202,14 @@ const NavBar = ({ toggleNavbar, isActive }) => (
 
               <li style={{position:'',}}>
              
-             <label className="modal-btn grad" htmlFor="modal-toggle" style={{position:'relative', textShadow: '1px 2px 0px black', paddingRight:'20px', borderRight:'1px solid #000',}}>Contact <FaTelegramPlane className="contact-icon txtshadow" style={{fontSize:'30px', position:'relative', right:'-6px', top:'12px',}}/></label> 
+             <label className="modal-btn grad" htmlFor="modal-toggle" style={{position:'relative', textShadow: '1px 2px 0px black', paddingRight:'15px', borderRight:'1px solid #000',}}>Contact <FaTelegramPlane className="contact-icon txtshadow" style={{fontSize:'30px', position:'relative', right:'-6px', top:'12px',}}/></label> 
              
               </li>
               
               
               <li style={{position:'',}}>
              
-             <label className="modal-btn grad" htmlFor="semitoggle" style={{position:'relative', textShadow: '1px 2px 0px black', paddingRight:'20px',}}> <FaSearch className="contact-icon txtshadow" style={{fontSize:'23px', position:'relative', right:'', top:'10px',}}/></label> 
+             <label className="modal-btn grad" htmlFor="semitoggle" style={{position:'relative', textShadow: '1px 2px 0px black', paddingRight:'8px',}}> <FaSearch className="contact-icon txtshadow" style={{fontSize:'23px', position:'relative', right:'', top:'10px',}}/></label> 
              
               </li>
               
