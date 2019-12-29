@@ -45,6 +45,8 @@ display: flex; justify-content: space-around; flex-wrap: wrap; align-items: top;
 .galmenu li{width:18%; margin:0 0 3px 0;}
 .custom-gal li {width:30%; height:100%; padding:0; color:#fff; margin:5px 3px; text-align: center;}
 
+.galmenu li:first-child{border:0px solid red !important; width:100%;}
+
 }
 
 
@@ -63,7 +65,7 @@ const GalleryMenu = () => (
 <h2 style={{textAlign:'center', fontSize:'80%', margin:'0', padding:'0 0 5px 0', color:'#ddd',}}>Available Galleries <span className="no-app" style={{fontSize:'90%',}}><FaLock /> ( requires free<Link to="/install"> app installation here</Link> )</span></h2>
 
 <ul className="galmenu custom-gal" style={{}}>
-      
+      <li>Themed Galleries</li>
       <li className="galmenu-item"><Link to="/galleries/favorites" className="galgrad" title="Favorites" id="favorites">Popular<br />Favorites</Link></li>
       
       <li className="galmenu-item"><Link to="/galleries/milky-way" className="galgrad" title="Milky Way">Milky<br />Way</Link></li>
@@ -90,7 +92,7 @@ const GalleryMenu = () => (
       
       <h4 style={{display:'none', textAlign:'center', fontSize:'70%', color:'#ddd',}}>Full Library:</h4>
 <ul className="galmenu">
-      
+      <li style={{fontSize:'80%',}}>Full Galleries</li>
       <li className="galmenu-item"><Link to="/galleries/gallery1" className="galgrad" title="Gallery 1">I</Link></li>
       <li className="galmenu-item"><Link to="/galleries/gallery2" className="galgrad" title="Gallery 2">II</Link></li>
       <li className="galmenu-item"><Link to="/galleries/gallery3" className="galgrad" title="Gallery 3">III</Link></li>
