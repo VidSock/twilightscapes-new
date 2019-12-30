@@ -14,7 +14,7 @@ const CustomBox = styled.div`
 
 
 
-#favorites {
+#gallery1 {
 	position:relative;
 background: rgb(126,209,234); /* Old browsers */
 background: -moz-radial-gradient(center, ellipse cover, rgba(126,209,234,1) 0%, rgba(65,145,186,1) 40%, rgba(3,73,127,1) 100%); /* FF3.6-15 */
@@ -26,7 +26,7 @@ background: radial-gradient(ellipse at center, rgba(126,209,234,1) 0%,rgba(65,14
 
 
 .intro:before{
-	content: "Galleries: Popular Favorites";
+	content: "Galleries: Gallery 1";
 
 position:absolute;
 display: flex;
@@ -63,7 +63,7 @@ font-size:350%; color:#f8f8fc; text-shadow: 12px 7px 15px 12px black;
 
 const Galleries = graphql`
   query Galleries {
-    allFile(filter: { relativeDirectory: { eq: "favorites" } }) {
+    allFile(filter: { relativeDirectory: { eq: "gallery1" } }) {
       edges {
         node {
           childImageSharp {
