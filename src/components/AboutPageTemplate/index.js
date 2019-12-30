@@ -38,8 +38,8 @@ height: 0;
 
 .imgbox img{border-radius:12px; border:0px solid #000;}
 
-.spacer33{height:15vh;}
-.spacer66{height:66vh;}
+.spacer33{height:8vh;}
+.spacer66{height:33vh;}
 .spacer99{height:99vh;}
 
 p{line-height:150%;}
@@ -165,7 +165,7 @@ Todd Lambert on location</span></div>
  
  
  
-  <ScrollAnimation animateIn="bounce" animateOut="fadeOut" initiallyVisible={true} animateOnce={true} animatePreScroll={false} delay={0} style={{}}>
+  <ScrollAnimation animateIn="bounce" animateOut="" initiallyVisible={true} animateOnce={true} animatePreScroll={false} delay={0} style={{}}>
   
  <div className="spacer33 bounce txtshadow-header" style={{fontSize:'500%', color:'#fff', textAlign:'center', position:'relative',}}>
  
@@ -181,7 +181,7 @@ Todd Lambert on location</span></div>
  
  <div className="spacer33"></div>
  
- <ScrollAnimation animateIn="tada" animateOnce={false} delay={0}>
+ <ScrollAnimation animateIn="tada" animateOnce={true} delay={0}>
   
   <div style={{padding:'1% 9%', fontSize:'120%', color:'#fff', textAlign:'center', backgroundColor:'#000', margin:'2em auto 0 auto', width:'80%', border:'1px solid',}}>
   <h5 className="txtshadow">The following content is rated:</h5> 
@@ -296,7 +296,7 @@ Todd Lambert on location</span></div>
 
  <div className="split" style={{display:'flex', justifyContent:'center', alignContent:'center', alignItems:'center', position:'relative',  width:'92%', margin:'0 auto', padding:'1rem', borderRadius:'12px', overflow:'',}}>
 
- <ScrollAnimation animateIn="slideInLeft" animateOut="slideOutLeft" animateOnce={false} delay={0} style={{width:'60%', order:'2',}}>    
+ <ScrollAnimation animateIn="slideInLeft" animateOut="" animateOnce={true} delay={0} style={{width:'60%', order:'2',}}>    
 <div className="container" style={{ width:'95%', borderRadius:'12px', margin:'0 0 0 -10px', padding:'1rem 2rem',}}>
 <h2 style={{textAlign:'center', fontSize:'130%', padding:'0',}}>[Narrator]</h2>
 
@@ -308,7 +308,7 @@ Todd Lambert on location</span></div>
 </div>
 </ScrollAnimation>
 
- <ScrollAnimation animateIn="slideInRight" animateOut="slideOutRight" animateOnce={false} delay={100} style={{width:'40%', padding:'0 auto 0 auto', order:'1',}}>    
+ <ScrollAnimation animateIn="slideInRight" animateOut="" animateOnce={true} delay={100} style={{width:'40%', padding:'0 auto 0 auto', order:'1',}}>    
 
 <div className="imgbox" style={{border:'0px solid black', position:'relative', margin:'0 0',}}><Image alt="Todd Lambert hanging with friends" filename="todd-friends.jpg" />
 <div className="txtshadow" style={{position:'absolute', bottom:'5px', fontSize:'60%', color:'#ddd', textAlign:'center', width:'100%',}}>
@@ -328,7 +328,7 @@ Todd Lambert on location</span></div>
        
         <div className="split" style={{display:'flex', justifyContent:'center', alignItems:'center', position:'relative',  width:'92%', margin:'0 auto', padding:'1rem', borderRadius:'12px', overflow:'',}}>
 
- <ScrollAnimation animateIn="slideInLeft" animateOut="slideOutLeft" animateOnce={false} delay={0} style={{width:'60%',}}>    
+ <ScrollAnimation animateIn="slideInLeft" animateOut="" animateOnce={true} delay={0} style={{width:'60%',}}>    
 <div className="container" style={{ width:'95%', borderRadius:'12px', margin:'0', padding:'',}}>
 <h3 style={{textAlign:'center', fontSize:'130%', padding:'0', margin:'0 0 1rem 0',}}>[Narrator]</h3>
 
@@ -343,7 +343,7 @@ Todd Lambert on location</span></div>
 </div>
 </ScrollAnimation>
 
- <ScrollAnimation animateIn="slideInRight" animateOut="slideOutRight" animateOnce={false} delay={100} style={{width:'40%', padding:'40px auto 40px auto',}}>    
+ <ScrollAnimation animateIn="slideInRight" animateOut="" animateOnce={true} delay={100} style={{width:'40%', padding:'40px auto 40px auto',}}>    
 
 <div className="imgbox" style={{border:'0px solid black', position:'relative', margin:'0 0 0 0',}}><Image alt="Todd Lambert Web development for photographers" filename="todd-young-business.jpg" />
 <div className="txtshadow" style={{position:'absolute', bottom:'5px', fontSize:'60%', color:'#ddd', textAlign:'center', width:'100%',}}>
@@ -378,7 +378,7 @@ Todd Lambert on location</span></div>
        
         <div className="split" style={{display:'flex', justifyContent:'center', alignItems:'center', position:'relative',  width:'92%', margin:'0 auto', padding:'1rem', borderRadius:'12px', overflow:'',}}>
 
- <ScrollAnimation animateIn="slideInLeft" animateOut="slideOutLeft" animateOnce={false} delay={0} style={{width:'45%', order:'2',}}>    
+ <ScrollAnimation animateIn="slideInLeft" animateOut="" animateOnce={true} delay={0} style={{width:'45%', order:'2',}}>    
 <div className="container" style={{ width:'95%', borderRadius:'12px', margin:'0 0 0 0', padding:'',}}>
 <h3 style={{textAlign:'center', fontSize:'130%', padding:'0', margin:'0 0 1rem 0',}}>[Narrator]</h3>
 <h3>Todd becomes a new pioneer on the frontiers of the World Wide Web</h3>
@@ -389,7 +389,7 @@ Todd had worked hard and become one of the the once-vaunted “Webmasters” who
 </div>
 </ScrollAnimation>
 
- <ScrollAnimation animateIn="slideInRight" animateOut="slideOutRight" animateOnce={false} delay={100} style={{width:'55%', padding:'0', order:'1',}}>    
+ <ScrollAnimation animateIn="slideInRight" animateOut="" animateOnce={true} delay={100} style={{width:'55%', padding:'0', order:'1',}}>    
 
 <div className="imgbox" style={{border:'0px solid black', position:'relative', margin:'0 1rem 0 0',}}><Image alt="Hackers Movie Poster" filename="hackthis.jpg" />
 <div className="txtshadow" style={{position:'absolute', bottom:'5px', fontSize:'60%', color:'#ddd', textAlign:'center', width:'100%',}}>
@@ -411,7 +411,7 @@ Todd had worked hard and become one of the the once-vaunted “Webmasters” who
        
         <div className="split nowrap" style={{display:'flex', justifyContent:'center', alignItems:'center', flexWrap:'no-wrap', position:'relative',  width:'92%', margin:'0 auto', padding:'1rem', borderRadius:'12px', overflow:'',}}>
 
- <ScrollAnimation animateIn="slideInLeft" animateOut="slideOutLeft" animateOnce={false} delay={0} style={{width:'70%', zIndex:'1',}}>    
+ <ScrollAnimation animateIn="slideInLeft" animateOut="" animateOnce={true} delay={0} style={{width:'70%', zIndex:'1',}}>    
 <div className="container speech" style={{ width:'95%', borderRadius:'12px', margin:'0', padding:'', order:'1', position:'relative',}}>
 
 <p>
@@ -424,7 +424,7 @@ It was my hey-day of web development. I had Jeffrey Zeldman and Eric Meyer liste
 </div>
 </ScrollAnimation>
 
- <ScrollAnimation animateIn="slideInRight" animateOut="slideOutRight" animateOnce={false} delay={100} style={{width:'30%', padding:'0', order:'2 !important',  zIndex:'0',}}>    
+ <ScrollAnimation animateIn="slideInRight" animateOut="" animateOnce={true} delay={100} style={{width:'30%', padding:'0', order:'2 !important',  zIndex:'0',}}>    
 
 <div className="imgbox grad" style={{border:'4px solid #fff', position:'relative', margin:'0 0 0 0', borderRadius:'50%', padding:'1rem', overflow:'hidden',}}><Image alt="Co-worker talks about Todd Lambert" filename="todd-toon.png" style={{borderColor:'transparent',}} />
 <div className="txtshadow" style={{position:'absolute', left:'0', bottom:'5px', fontSize:'70%', color:'#ddd', textAlign:'center', width:'100%',}}>Todd Lambert</div>
@@ -449,7 +449,7 @@ It was my hey-day of web development. I had Jeffrey Zeldman and Eric Meyer liste
        
        <div className="split" style={{display:'flex', justifyContent:'center', alignItems:'center', position:'relative',  width:'92%', margin:'0 auto', padding:'1rem', borderRadius:'12px', overflow:'',}}>
 
- <ScrollAnimation animateIn="slideInLeft" animateOut="slideOutLeft" animateOnce={false} delay={0} style={{width:'45%', order:'2',}}>    
+ <ScrollAnimation animateIn="slideInLeft" animateOut="" animateOnce={true} delay={0} style={{width:'45%', order:'2',}}>    
 <div className="container" style={{ width:'95%', borderRadius:'12px', margin:'0 0 0 0', padding:'',}}>
 <h3 style={{textAlign:'center', fontSize:'130%', padding:'0', margin:'0 0 1rem 0',}}>[Narrator]</h3>
 <h3>The view was great!</h3>
@@ -463,7 +463,7 @@ It was my hey-day of web development. I had Jeffrey Zeldman and Eric Meyer liste
 </ScrollAnimation>
 
 
- <ScrollAnimation animateIn="slideInRight" animateOut="slideOutRight" animateOnce={false} delay={100} style={{width:'55%', padding:'0', order:'1',}}>    
+ <ScrollAnimation animateIn="slideInRight" animateOut="" animateOnce={true} delay={100} style={{width:'55%', padding:'0', order:'1',}}>    
 
 <div className="imgbox" style={{border:'0px solid black', position:'relative', margin:'0 1rem 0 0',}}><Image alt="Todds garage and cars" filename="todd-cars.jpg" />
 <div className="txtshadow" style={{position:'absolute', bottom:'5px', fontSize:'60%', color:'#ddd', textAlign:'center', width:'100%',}}>
@@ -485,7 +485,7 @@ It was my hey-day of web development. I had Jeffrey Zeldman and Eric Meyer liste
        
         <div className="split nowrap" style={{display:'flex', justifyContent:'center', alignItems:'center', flexWrap:'no-wrap', position:'relative',  width:'92%', margin:'0 auto', padding:'1rem', borderRadius:'12px', overflow:'',}}>
 
- <ScrollAnimation animateIn="slideInLeft" animateOut="slideOutLeft" animateOnce={false} delay={0} style={{width:'70%', zIndex:'1',}}>    
+ <ScrollAnimation animateIn="slideInLeft" animateOut="" animateOnce={true} delay={0} style={{width:'70%', zIndex:'1',}}>    
 <div className="container speech" style={{ width:'95%', borderRadius:'12px', margin:'0', padding:'', order:'1', position:'relative',}}>
 
 <p>
@@ -498,7 +498,7 @@ I should have been on top of the world, yet I felt empty and felt as though I wa
 </div>
 </ScrollAnimation>
 
- <ScrollAnimation animateIn="slideInRight" animateOut="slideOutRight" animateOnce={false} delay={100} style={{width:'30%', padding:'0', order:'2 !important',  zIndex:'0',}}>    
+ <ScrollAnimation animateIn="slideInRight" animateOut="" animateOnce={true} delay={100} style={{width:'30%', padding:'0', order:'2 !important',  zIndex:'0',}}>    
 
 <div className="imgbox grad" style={{border:'4px solid #fff', position:'relative', margin:'0 0 0 0', borderRadius:'50%', padding:'1rem', overflow:'hidden',}}><Image alt="Co-worker talks about Todd Lambert" filename="todd-toon.png" style={{borderColor:'transparent',}} />
 <div className="txtshadow" style={{position:'absolute', left:'0', bottom:'5px', fontSize:'70%', color:'#ddd', textAlign:'center', width:'100%',}}>Todd Lambert</div>
@@ -531,7 +531,7 @@ I should have been on top of the world, yet I felt empty and felt as though I wa
        
         <div className="split" style={{display:'flex', justifyContent:'center', alignItems:'center', position:'relative',  width:'92%', margin:'0 auto', padding:'1rem', borderRadius:'12px', overflow:'',}}>
 
- <ScrollAnimation animateIn="slideInLeft" animateOut="slideOutLeft" animateOnce={false} delay={0} style={{width:'60%',}}>    
+ <ScrollAnimation animateIn="slideInLeft" animateOut="" animateOnce={true} delay={0} style={{width:'60%',}}>    
 <div className="container" style={{ width:'95%', borderRadius:'12px', margin:'0', padding:'',}}>
 <h3 style={{textAlign:'center', fontSize:'130%', padding:'0', margin:'0 0 1rem 0',}}>[Narrator]</h3>
 
@@ -542,7 +542,7 @@ I should have been on top of the world, yet I felt empty and felt as though I wa
 </div>
 </ScrollAnimation>
 
- <ScrollAnimation animateIn="slideInRight" animateOut="slideOutRight" animateOnce={false} delay={100} style={{width:'40%', padding:'40px auto 40px auto',}}>    
+ <ScrollAnimation animateIn="slideInRight" animateOut="" animateOnce={true} delay={100} style={{width:'40%', padding:'40px auto 40px auto',}}>    
 
 <div className="imgbox" style={{border:'0px solid black', position:'relative', margin:'0 0 0 0',}}><Image alt="Todd Lambert Web development for photographers" filename="todd-grabs.jpg" />
 <div className="txtshadow" style={{position:'absolute', bottom:'5px', fontSize:'60%', color:'#ddd', textAlign:'center', width:'100%',}}>
@@ -568,7 +568,7 @@ I should have been on top of the world, yet I felt empty and felt as though I wa
        
         <div className="split nowrap" style={{display:'flex', justifyContent:'center', alignItems:'center', flexWrap:'no-wrap', position:'relative',  width:'92%', margin:'0 auto', padding:'1rem', borderRadius:'12px', overflow:'',}}>
 
- <ScrollAnimation animateIn="slideInLeft" animateOut="slideOutLeft" animateOnce={false} delay={0} style={{width:'60%', zIndex:'1',}}>    
+ <ScrollAnimation animateIn="slideInLeft" animateOut="" animateOnce={true} delay={0} style={{width:'60%', zIndex:'1',}}>    
 <div className="container speech" style={{ width:'95%', borderRadius:'12px', margin:'0', padding:'', order:'1', position:'relative',}}>
 
 <p>
@@ -581,7 +581,7 @@ I once saw Todd eat an entire box of Krispie Kreme donuts and then he washed it 
 </div>
 </ScrollAnimation>
 
- <ScrollAnimation animateIn="slideInRight" animateOut="slideOutRight" animateOnce={false} delay={100} style={{width:'40%', padding:'0', order:'2 !important',  zIndex:'0',}}>    
+ <ScrollAnimation animateIn="slideInRight" animateOut="" animateOnce={true} delay={100} style={{width:'40%', padding:'0', order:'2 !important',  zIndex:'0',}}>    
 
 <div className="imgbox grad" style={{border:'4px solid #fff', position:'relative', margin:'0 0 0 0', borderRadius:'50%', padding:'1rem', overflow:'hidden',}}><Image alt="Co-worker talks about Todd Lambert" filename="coworker.png" style={{borderColor:'transparent',}} />
 <div className="txtshadow" style={{position:'absolute', left:'0', bottom:'25px', fontSize:'70%', color:'#ddd', textAlign:'center', width:'100%',}}>co-worker</div>
@@ -603,7 +603,7 @@ I once saw Todd eat an entire box of Krispie Kreme donuts and then he washed it 
        
        <div className="split" style={{display:'flex', justifyContent:'center', alignItems:'center', position:'relative',  width:'92%', margin:'0 auto', padding:'1rem', borderRadius:'12px', overflow:'',}}>
 
- <ScrollAnimation animateIn="slideInLeft" animateOut="slideOutLeft" animateOnce={false} delay={0} style={{width:'45%', order:'2',}}>    
+ <ScrollAnimation animateIn="slideInLeft" animateOut="" animateOnce={true} delay={0} style={{width:'45%', order:'2',}}>    
 <div className="container" style={{ width:'95%', borderRadius:'12px', margin:'0 0 0 0', padding:'',}}>
 <h3 style={{textAlign:'center', fontSize:'130%', padding:'0', margin:'0 0 1rem 0',}}>[Narrator]</h3>
 <h3>Then it all came crashing down</h3>
@@ -615,7 +615,7 @@ I once saw Todd eat an entire box of Krispie Kreme donuts and then he washed it 
 </ScrollAnimation>
 
 
- <ScrollAnimation animateIn="slideInRight" animateOut="slideOutRight" animateOnce={false} delay={100} style={{width:'55%', padding:'0', order:'1',}}>    
+ <ScrollAnimation animateIn="slideInRight" animateOut="" animateOnce={true} delay={100} style={{width:'55%', padding:'0', order:'1',}}>    
 
 <div className="imgbox" style={{border:'0px solid black', position:'relative', margin:'0 1rem 0 0',}}><Image alt="Todds old beater car and a funny scene" filename="bluebox-crash.jpg" />
 <div className="txtshadow" style={{position:'absolute', bottom:'5px', fontSize:'60%', color:'#ddd', textAlign:'center', width:'100%',}}>
@@ -634,7 +634,7 @@ I once saw Todd eat an entire box of Krispie Kreme donuts and then he washed it 
        
         <div className="split" style={{display:'flex', justifyContent:'center', alignItems:'center', position:'relative',  width:'92%', margin:'0 auto', padding:'1rem', borderRadius:'12px', overflow:'',}}>
 
- <ScrollAnimation animateIn="slideInLeft" animateOut="slideOutLeft" animateOnce={false} delay={0} style={{width:'60%',}}>    
+ <ScrollAnimation animateIn="slideInLeft" animateOut="" animateOnce={true} delay={0} style={{width:'60%',}}>    
 <div className="container" style={{ width:'95%', borderRadius:'12px', margin:'0', padding:'',}}>
 <h3 style={{textAlign:'center', fontSize:'130%', padding:'0', margin:'0 0 1rem 0',}}>[Narrator]</h3>
 
@@ -647,7 +647,7 @@ I once saw Todd eat an entire box of Krispie Kreme donuts and then he washed it 
 </div>
 </ScrollAnimation>
 
- <ScrollAnimation animateIn="slideInRight" animateOut="slideOutRight" animateOnce={false} delay={100} style={{width:'40%', padding:'40px auto 40px auto',}}>    
+ <ScrollAnimation animateIn="slideInRight" animateOut="" animateOnce={true} delay={100} style={{width:'40%', padding:'40px auto 40px auto',}}>    
 
 <div className="imgbox" style={{border:'0px solid black', position:'relative', margin:'0 0 0 0',}}><Image alt="Todd Lambert Web development for photographers" filename="todd-camera.jpg" />
 <div className="txtshadow" style={{position:'absolute', bottom:'5px', fontSize:'60%', color:'#ddd', textAlign:'center', width:'100%',}}>
@@ -666,7 +666,7 @@ I once saw Todd eat an entire box of Krispie Kreme donuts and then he washed it 
        
         <div className="split nowrap" style={{display:'flex', justifyContent:'center', alignItems:'center', flexWrap:'no-wrap', position:'relative',  width:'92%', margin:'0 auto', padding:'1rem', borderRadius:'12px', overflow:'',}}>
 
- <ScrollAnimation animateIn="slideInLeft" animateOut="slideOutLeft" animateOnce={false} delay={0} style={{width:'70%', zIndex:'1',}}>    
+ <ScrollAnimation animateIn="slideInLeft" animateOut="" animateOnce={true} delay={0} style={{width:'70%', zIndex:'1',}}>    
 <div className="container speech" style={{ width:'95%', borderRadius:'12px', margin:'0', padding:'', order:'1', position:'relative',}}>
 
 <p>
@@ -681,7 +681,7 @@ I just found that I really enjoyed the peacefulness and tranquility when I photo
 </div>
 </ScrollAnimation>
 
- <ScrollAnimation animateIn="slideInRight" animateOut="slideOutRight" animateOnce={false} delay={100} style={{width:'30%', padding:'0', order:'2 !important',  zIndex:'0',}}>    
+ <ScrollAnimation animateIn="slideInRight" animateOut="" animateOnce={true} delay={100} style={{width:'30%', padding:'0', order:'2 !important',  zIndex:'0',}}>    
 
 <div className="imgbox grad" style={{border:'4px solid #fff', position:'relative', margin:'0 0 0 0', borderRadius:'50%', padding:'1rem', overflow:'hidden',}}><Image alt="Co-worker talks about Todd Lambert" filename="todd-toon.png" style={{borderColor:'transparent',}} />
 <div className="txtshadow" style={{position:'absolute', left:'0', bottom:'5px', fontSize:'70%', color:'#ddd', textAlign:'center', width:'100%',}}>Todd Lambert</div>
@@ -700,7 +700,7 @@ I just found that I really enjoyed the peacefulness and tranquility when I photo
        
         <div className="split" style={{display:'flex', justifyContent:'center', alignItems:'center', position:'relative',  width:'92%', margin:'0 auto', padding:'1rem', borderRadius:'12px', overflow:'',}}>
 
- <ScrollAnimation animateIn="slideInLeft" animateOut="slideOutLeft" animateOnce={false} delay={0} style={{width:'60%',}}>    
+ <ScrollAnimation animateIn="slideInLeft" animateOut="" animateOnce={true} delay={0} style={{width:'60%',}}>    
 <div className="container" style={{ width:'95%', borderRadius:'12px', margin:'0', padding:'',}}>
 <h3 style={{textAlign:'center', fontSize:'130%', padding:'0', margin:'0 0 1rem 0',}}>[Narrator]</h3>
 
@@ -715,7 +715,7 @@ I just found that I really enjoyed the peacefulness and tranquility when I photo
 </div>
 </ScrollAnimation>
 
- <ScrollAnimation animateIn="slideInRight" animateOut="slideOutRight" animateOnce={false} delay={100} style={{width:'40%', padding:'40px auto 40px auto',}}>    
+ <ScrollAnimation animateIn="slideInRight" animateOut="" animateOnce={true} delay={100} style={{width:'40%', padding:'40px auto 40px auto',}}>    
 
 <div className="imgbox" style={{border:'0px solid black', position:'relative', margin:'0 0 0 0',}}><Image alt="Sell your soul" filename="mcmansion.jpg" />
 <div className="txtshadow" style={{position:'absolute', bottom:'5px', fontSize:'60%', color:'#ddd', textAlign:'center',  width:'90%',  margin:'0 3%',}}>
@@ -736,7 +736,7 @@ I just found that I really enjoyed the peacefulness and tranquility when I photo
        
         <div className="split" style={{display:'flex', justifyContent:'center', alignItems:'center', position:'relative',  width:'92%', margin:'0 auto', padding:'1rem', borderRadius:'12px', overflow:'',}}>
 
- <ScrollAnimation animateIn="slideInLeft" animateOut="slideOutLeft" animateOnce={false} delay={0} style={{width:'60%',}}>    
+ <ScrollAnimation animateIn="slideInLeft" animateOut="" animateOnce={true} delay={0} style={{width:'60%',}}>    
 <div className="container" style={{ width:'95%', borderRadius:'12px', margin:'0', padding:'',}}>
 <h3 style={{textAlign:'center', fontSize:'130%', padding:'0', margin:'0 0 1rem 0',}}>[Narrator]</h3>
 
@@ -751,7 +751,7 @@ I just found that I really enjoyed the peacefulness and tranquility when I photo
 </div>
 </ScrollAnimation>
 
- <ScrollAnimation animateIn="slideInRight" animateOut="slideOutRight" animateOnce={false} delay={100} style={{width:'40%', padding:'40px auto 40px auto',}}>    
+ <ScrollAnimation animateIn="slideInRight" animateOut="" animateOnce={true} delay={100} style={{width:'40%', padding:'40px auto 40px auto',}}>    
 
 <div className="imgbox" style={{border:'0px solid black', position:'relative', margin:'0 0 0 0',}}><Image alt="Exploring the elevator shafts in an abandoned hotel" filename="todd-abandoned.jpg" />
 <div className="txtshadow" style={{position:'absolute', bottom:'5px', fontSize:'60%', color:'#ddd', textAlign:'center', width:'100%',}}>
@@ -771,7 +771,7 @@ I just found that I really enjoyed the peacefulness and tranquility when I photo
        
         <div className="split nowrap" style={{display:'flex', justifyContent:'center', alignItems:'center', flexWrap:'no-wrap', position:'relative',  width:'92%', margin:'0 auto', padding:'1rem', borderRadius:'12px', overflow:'',}}>
 
- <ScrollAnimation animateIn="slideInLeft" animateOut="slideOutLeft" animateOnce={false} delay={0} style={{width:'70%', zIndex:'1',}}>    
+ <ScrollAnimation animateIn="slideInLeft" animateOut="" animateOnce={true} delay={0} style={{width:'70%', zIndex:'1',}}>    
 <div className="container speech" style={{ width:'95%', borderRadius:'12px', margin:'0', padding:'', order:'1', position:'relative',}}>
 
 <p>
@@ -784,7 +784,7 @@ There was actually several incidences of me pretending to be “sleep walking”
 </div>
 </ScrollAnimation>
 
- <ScrollAnimation animateIn="slideInRight" animateOut="slideOutRight" animateOnce={false} delay={100} style={{width:'30%', padding:'0', order:'2 !important',  zIndex:'0',}}>    
+ <ScrollAnimation animateIn="slideInRight" animateOut="" animateOnce={true} delay={100} style={{width:'30%', padding:'0', order:'2 !important',  zIndex:'0',}}>    
 
 <div className="imgbox grad" style={{border:'4px solid #fff', position:'relative', margin:'0 0 0 0', borderRadius:'50%', padding:'1rem', overflow:'hidden',}}><Image alt="Co-worker talks about Todd Lambert" filename="todd-toon.png" style={{borderColor:'transparent',}} />
 <div className="txtshadow" style={{position:'absolute', left:'0', bottom:'5px', fontSize:'70%', color:'#ddd', textAlign:'center', width:'100%',}}>Todd Lambert</div>
@@ -806,7 +806,7 @@ There was actually several incidences of me pretending to be “sleep walking”
        
         <div className="split" style={{display:'flex', justifyContent:'center', alignItems:'center', position:'relative',  width:'92%', margin:'0 auto', padding:'1rem', borderRadius:'12px', overflow:'',}}>
 
- <ScrollAnimation animateIn="slideInLeft" animateOut="slideOutLeft" animateOnce={false} delay={0} style={{width:'65%',}}>    
+ <ScrollAnimation animateIn="slideInLeft" animateOut="" animateOnce={true} delay={0} style={{width:'65%',}}>    
 <div className="container" style={{ width:'95%', borderRadius:'12px', margin:'0', padding:'',}}>
 <h3 style={{textAlign:'center', fontSize:'130%', padding:'0', margin:'0 0 1rem 0',}}>[Narrator]</h3>
 
@@ -821,7 +821,7 @@ There was actually several incidences of me pretending to be “sleep walking”
 </div>
 </ScrollAnimation>
 
- <ScrollAnimation animateIn="slideInRight" animateOut="slideOutRight" animateOnce={false} delay={100} style={{width:'35%', padding:'40px auto 40px auto',}}>    
+ <ScrollAnimation animateIn="slideInRight" animateOut="" animateOnce={true} delay={100} style={{width:'35%', padding:'40px auto 40px auto',}}>    
 
 <div className="imgbox" style={{border:'0px solid black', position:'relative', margin:'0 0 0 0',}}><Image alt="Captive light from within" filename="new-in-old.jpg" />
 <div className="txtshadow" style={{position:'absolute', bottom:'5px', fontSize:'60%', color:'#ddd', textAlign:'center', width:'100%',}}>
@@ -840,7 +840,7 @@ There was actually several incidences of me pretending to be “sleep walking”
        
         <div className="split nowrap" style={{display:'flex', justifyContent:'center', alignItems:'center', flexWrap:'no-wrap', position:'relative',  width:'92%', margin:'0 auto', padding:'1rem', borderRadius:'12px', overflow:'',}}>
 
- <ScrollAnimation animateIn="slideInLeft" animateOut="slideOutLeft" animateOnce={false} delay={0} style={{width:'70%', zIndex:'1',}}>    
+ <ScrollAnimation animateIn="slideInLeft" animateOut="" animateOnce={true} delay={0} style={{width:'70%', zIndex:'1',}}>    
 <div className="container speech" style={{ width:'95%', borderRadius:'12px', margin:'0', padding:'', order:'1', position:'relative',}}>
 
 <p>
@@ -853,7 +853,7 @@ The history of our past, seemed to call to me. I was enamored by ghosts of place
 </div>
 </ScrollAnimation>
 
- <ScrollAnimation animateIn="slideInRight" animateOut="slideOutRight" animateOnce={false} delay={100} style={{width:'30%', padding:'0', order:'2 !important',  zIndex:'0',}}>    
+ <ScrollAnimation animateIn="slideInRight" animateOut="" animateOnce={true} delay={100} style={{width:'30%', padding:'0', order:'2 !important',  zIndex:'0',}}>    
 
 <div className="imgbox grad" style={{border:'4px solid #fff', position:'relative', margin:'0 0 0 0', borderRadius:'50%', padding:'1rem', overflow:'hidden',}}><Image alt="Co-worker talks about Todd Lambert" filename="todd-toon.png" style={{borderColor:'transparent',}} />
 <div className="txtshadow" style={{position:'absolute', left:'0', bottom:'5px', fontSize:'70%', color:'#ddd', textAlign:'center', width:'100%',}}>Todd Lambert</div>
@@ -871,7 +871,7 @@ The history of our past, seemed to call to me. I was enamored by ghosts of place
        
         <div className="split" style={{display:'flex', justifyContent:'center', alignItems:'center', position:'relative',  width:'92%', margin:'0 auto', padding:'1rem', borderRadius:'12px', overflow:'',}}>
 
- <ScrollAnimation animateIn="slideInLeft" animateOut="slideOutLeft" animateOnce={false} delay={0} style={{width:'60%',}}>    
+ <ScrollAnimation animateIn="slideInLeft" animateOut="" animateOnce={true} delay={0} style={{width:'60%',}}>    
 <div className="container" style={{ width:'95%', borderRadius:'12px', margin:'0', padding:'',}}>
 <h3 style={{textAlign:'center', fontSize:'130%', padding:'0', margin:'0 0 1rem 0',}}>[Narrator]</h3>
 
@@ -886,7 +886,7 @@ The history of our past, seemed to call to me. I was enamored by ghosts of place
 </div>
 </ScrollAnimation>
 
- <ScrollAnimation animateIn="slideInRight" animateOut="slideOutRight" animateOnce={false} delay={100} style={{width:'40%', padding:'40px auto 40px auto',}}>    
+ <ScrollAnimation animateIn="slideInRight" animateOut="" animateOnce={true} delay={100} style={{width:'40%', padding:'40px auto 40px auto',}}>    
 
 <div className="imgbox" style={{border:'0px solid black', position:'relative', margin:'0 0 0 0',}}><Image alt="Todd on location at Mono Lake" filename="todd-horizons.jpg" />
 <div className="txtshadow" style={{position:'absolute', bottom:'5px', fontSize:'60%', color:'#ddd', textAlign:'center', width:'100%',}}>
@@ -913,7 +913,7 @@ The history of our past, seemed to call to me. I was enamored by ghosts of place
        
         <div className="split nowrap" style={{display:'flex', justifyContent:'center', alignItems:'center', flexWrap:'no-wrap', position:'relative',  width:'92%', margin:'0 auto', padding:'1rem', borderRadius:'12px', overflow:'',}}>
 
- <ScrollAnimation animateIn="slideInLeft" animateOut="slideOutLeft" animateOnce={false} delay={0} style={{width:'70%', zIndex:'1',}}>    
+ <ScrollAnimation animateIn="slideInLeft" animateOut="" animateOnce={true} delay={0} style={{width:'70%', zIndex:'1',}}>    
 <div className="container speech" style={{ width:'95%', borderRadius:'12px', margin:'0', padding:'', order:'1', position:'relative',}}>
 
 <p>
@@ -927,7 +927,7 @@ Traveling across the country in search of a beauty that is elusive and fading, o
 </div>
 </ScrollAnimation>
 
- <ScrollAnimation animateIn="slideInRight" animateOut="slideOutRight" animateOnce={false} delay={100} style={{width:'30%', padding:'0', order:'2 !important',  zIndex:'0',}}>    
+ <ScrollAnimation animateIn="slideInRight" animateOut="" animateOnce={true} delay={100} style={{width:'30%', padding:'0', order:'2 !important',  zIndex:'0',}}>    
 
 <div className="imgbox grad" style={{border:'4px solid #fff', position:'relative', margin:'0 0 0 0', borderRadius:'50%', padding:'1rem', overflow:'hidden',}}><Image alt="Co-worker talks about Todd Lambert" filename="todd-toon.png" style={{borderColor:'transparent',}} />
 <div className="txtshadow" style={{position:'absolute', left:'0', bottom:'5px', fontSize:'70%', color:'#ddd', textAlign:'center', width:'100%',}}>Todd Lambert</div>
