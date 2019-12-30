@@ -32,6 +32,7 @@ module.exports = {
     `gatsby-plugin-sharp`,
     `gatsby-transformer-sharp`,
     `gatsby-plugin-dark-mode`,
+    `gatsby-plugin-netlify-cache`,
     
     	  {
       resolve: `gatsby-plugin-google-gtag`,
@@ -40,19 +41,7 @@ module.exports = {
       },
     },
     
-    {
-    resolve: "gatsby-plugin-netlify-cache",
-    options: {
-      extraDirsToCache: [
-        "src/img/favorites",
-        "src/img/gallery1", "src/img/gallery2", "src/img/gallery3", "src/img/gallery4",
-        "src/img/gallery5", "src/img/gallery6", "src/img/gallery7", "src/img/gallery8",
-        "src/img/gallery9", "src/img/gallery10", "src/img/cars", "src/img/crazy-geology",
-        "src/img/daytime", "src/img/ghosttowns", "src/img/milky-way", "src/img/todd",
-        "src/img/frontpage"
-      ]
-    }
-  },
+
     
 { 
       resolve: `gatsby-plugin-purgecss`,
