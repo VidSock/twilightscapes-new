@@ -116,7 +116,7 @@ const Intro2 = () => (
   
    
    
-    <div className=" kenburns-bottom-left" style={{zIndex:'',}}><Image className="slider" alt="Todd Mushroom" filename="night283.jpg" style={{backgroundSize:'cover', zIndex:'', }} /></div>
+    <div className=" kenburns-bottom-left" style={{zIndex:'',}}><Image className="slider" alt="Todd Mushroom" filename="homepage.jpg" style={{backgroundSize:'cover', zIndex:'', }} /></div>
     
 
     

@@ -106,8 +106,8 @@
 
 
 .kenburns-bottom-left {
-	-webkit-animation: kenburns-bottom-left 10s ease-in-out infinite alternate-reverse both;
-	        animation: kenburns-bottom-left 10s ease-in-out infinite alternate-reverse both;
+	-webkit-animation: kenburns-bottom-left 10s ease-in-out  alternate-reverse both;
+	        animation: kenburns-bottom-left 10s ease-in-out  alternate-reverse both;
 }
 @-webkit-keyframes kenburns-bottom-left {
   0% {
@@ -217,8 +217,8 @@
 
 
 .kenburns-left {
-	-webkit-animation: kenburns-left 10s ease-in-out infinite alternate-reverse both;
-	        animation: kenburns-left 10s ease-in-out infinite alternate-reverse both;
+	-webkit-animation: kenburns-left 10s ease-in-out  alternate-reverse both;
+	        animation: kenburns-left 10s ease-in-out  alternate-reverse both;
 }
 @-webkit-keyframes kenburns-left {
   0% {
