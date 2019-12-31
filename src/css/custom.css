@@ -106,8 +106,8 @@
 
 
 .kenburns-bottom-left {
-	-webkit-animation: kenburns-bottom-left 10s ease-in-out  alternate-reverse both;
-	        animation: kenburns-bottom-left 10s ease-in-out  alternate-reverse both;
+	-webkit-animation: kenburns-bottom-left 5s ease-in-out  alternate-reverse both;
+	        animation: kenburns-bottom-left 5s ease-in-out  alternate-reverse both;
 }
 @-webkit-keyframes kenburns-bottom-left {
   0% {

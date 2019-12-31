@@ -44,7 +44,7 @@ const Intro2 = () => (
 
   
   
-  <ScrollAnimation animateIn="bounceInDown" delay={1400} offset={0}  initiallyVisible={false} animateOnce={true} animatePreScroll={true} style={{position:'relative', paddingTop:'0', right:'10%',}}>
+  <ScrollAnimation animateIn="bounceInDown" delay={3400} offset={0}  initiallyVisible={false} animateOnce={true} animatePreScroll={true} style={{position:'relative', paddingTop:'0', right:'10%',}}>
         <h1
           className="boom normal txtshadow-header hit-the-floor"
           style={{
@@ -63,7 +63,7 @@ const Intro2 = () => (
         </ScrollAnimation>
         
         
-  <ScrollAnimation animateIn="bounceInRight" delay={1500} initiallyVisible={false} animateOnce={true} animatePreScroll={true} style={{position:'relative', top:'-10px', right:'10%',}}>
+  <ScrollAnimation animateIn="bounceInRight" delay={3500} initiallyVisible={false} animateOnce={true} animatePreScroll={true} style={{position:'relative', top:'-10px', right:'10%',}}>
         <h2
           className="boom narrow txtshadow mobile-txt"
           style={{
@@ -78,7 +78,7 @@ const Intro2 = () => (
         </ScrollAnimation>
         
         
-  <ScrollAnimation animateIn="bounceInUp" delay={1450} initiallyVisible={false} animateOnce={true} animatePreScroll={true} style={{position:'relative', top:'-25px', right:'10%',}}>
+  <ScrollAnimation animateIn="bounceInUp" delay={3450} initiallyVisible={false} animateOnce={true} animatePreScroll={true} style={{position:'relative', top:'-25px', right:'10%',}}>
         <h3
           className="boom"
           style={{
@@ -96,7 +96,7 @@ const Intro2 = () => (
 
 
         
-<ScrollAnimation animateIn="bounceInRight" delay={2500} initiallyVisible={false} animateOnce={true} animatePreScroll={true} style={{position:'relative', top:'-40px', right:'12%', float:'right', display:'inlineBlock', justifyContent:'', alignItems:'center', margin:'0 auto', padding:'0 0 0 0',  textAlign:'center',}}>
+<ScrollAnimation animateIn="bounceInRight" delay={3900} initiallyVisible={false} animateOnce={true} animatePreScroll={true} style={{position:'relative', top:'-40px', right:'12%', float:'right', display:'inlineBlock', justifyContent:'', alignItems:'center', margin:'0 auto', padding:'0 0 0 0',  textAlign:'center',}}>
    <Newsletter />      
 </ScrollAnimation>
 
