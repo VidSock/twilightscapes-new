@@ -15,7 +15,7 @@ const Disclaimer = () => (
     
 
        
-       <ScrollAnimation animateIn="bounceInUp" animateOnce={true}>
+
        <div className="container">
               <h2 className="">
                 Todd&apos;s Gear
@@ -98,7 +98,7 @@ const Disclaimer = () => (
 
 
        </div>
-       </ScrollAnimation>
+
     </section>
   </Layout>
 )

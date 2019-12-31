@@ -29,8 +29,8 @@ display: flex;
 align-items: center;
 justify-content: center;
 font-size:280%; color:#f8f8fc; text-shadow: 12px 7px 15px 12px black;
-animation: poof 1.5s forwards;
-animation-delay: 1.5s;
+animation: poof 1s forwards;
+animation-delay: 1.2s;
 top:0 !important;
 }
 
@@ -130,7 +130,7 @@ const HomePageTemplate = ({
 
 
 
-<ScrollAnimation animateIn="bounceInUp" animateOut="fadeOut" initiallyVisible={false} animateOnce={true} animatePreScroll={false}>
+<ScrollAnimation animateIn="bounceInUp" animateOut="" initiallyVisible={false} animateOnce={true} animatePreScroll={false}>
 <div id="desc" className="container">
 <div className="content" style={{padding:'1rem 1rem', display:'flex', flexDirection:'row',}}>
 
@@ -159,7 +159,7 @@ const HomePageTemplate = ({
 
 
 
-<ScrollAnimation animateIn="bounceInUp" animateOut="fadeOut" initiallyVisible={false} animateOnce={true} animatePreScroll={false}>
+<ScrollAnimation animateIn="bounceInUp" animateOut="" initiallyVisible={false} animateOnce={true} animatePreScroll={false}>
 
 <div className="container">
 <div className="content" style={{padding:'1rem 1rem', display:'flex', flexDirection:'row',}}>
@@ -188,7 +188,7 @@ const HomePageTemplate = ({
 
     
        
-    <ScrollAnimation animateIn="bounceInUp" animateOut="fadeOut" initiallyVisible={false} animateOnce={true} animatePreScroll={false}>
+    <ScrollAnimation animateIn="bounceInUp" animateOut="" initiallyVisible={false} animateOnce={true} animatePreScroll={false}>
     <div className="container" style={{marginTop:'',}}>
 <div className="content nowrap" style={{padding:'1rem 1rem 1rem 1rem', display:'flex', flexDirection:'row',}}>
 <h2 className="pitch1 txtshadow-header" style={{fontSize:'250%', display:'flex', flexDirection:'column',}}>Like this site?</h2>
