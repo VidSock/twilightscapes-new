@@ -66,9 +66,11 @@ testimonials:
       Fusce porttitor vulputate enim, nec blandit magna gravida et. Etiam et
       dignissim ligula.  Lorem ipsum dolor sit amet, consectetur adipiscing
       elit.
-meta_title: Follow Me Into The Night | Unique Photography by Twilightscapes
+meta_title: Follow Me Into The Night | Unique Photography by Todd Lambert
 meta_description: >-
-  Twilightscapes brings new definitions to the genre of night photography. Experience some of the most remote, desolate locations photographed in the dead of night by world renown night photographer Todd Lambert.
+  Twilightscapes brings new definitions to the genre of night photography.
+  Experience some of the most remote, desolate locations photographed in the
+  dead of night by world renown night photographer Todd Lambert.
 
   Let Todd build your site today!
 ---
