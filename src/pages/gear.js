@@ -15,6 +15,56 @@ const Disclaimer = () => (
     
 
        
+    <div className="container"><h2 className="h2">Overlanding road trip setup</h2>
+    
+    <div className="content">
+    
+    <p>I get a lot of questions from people about overlanding and my road-trip setup. So, I thought I’d post a bit more about my setup.</p>
+    
+  
+    <Image alt="Todd Lambert Web development for photographers" filename="twilightscapes-rig.jpg" />
+    
+        <Image alt="Todd Lambert Web development for photographers" filename="overlanding.jpg" />
+    
+    
+    <h3>Night Photographer’s Dream Overlanding Setup</h3>
+    <p>Up front is a 2014 Subaru Outback with H6 Boxer engine. It’s got everything to go wherever I want to go and is complete with full-size spare, farm jack, shovel, 12ft. ladder, and Rigid Industries LED flood/spot combo light bar. All of this is on top of the Yakima large cargo rack.
+    The lights are controlled from a toggle switch on the dashboard.
+    The Outback has had electronic brake controls added, a sway bar, and transmission cooler.</p>
+    
+    
+     <Image alt="Todd Lambert Web development for photographers" filename="overlanding2.jpg" />
+
+    
+    <p>My living quarters and office is in the back: an 18ft. Aliner Expedition pop-up hard-sided A-Frame. It’s got running water, fridge, heater/AC, stove, shower/toilet, queen bed and my office area.</p>
+    <h3>Rollin'</h3>
+    <p>Overall, it allows me to roll anywhere I want, even in backcountry. While overlanding, I can be completely off the grid for over a month, with dual deep cycle marine batteries, dual propane tanks and soon to come, solar panels.</p>
+    <p>In addition to the inside shower, there is also an outside shower which comes in handy to hose things down, or for taking nude showers out in the middle of nowhere. </p>
+    
+    
+    
+    
+    
+    
+    
+    
+     <Image alt="Todd Lambert Web development for photographers" filename="overlanding4.jpg" />
+
+    <h3>Grillin' &amp; Chillin'</h3>
+    <p>My setup even has indoor and outdoor speakers and bluetooth stereo which I use a lot with my iPhone to control.</p>
+    <p>Lastly, there is also a propane access port and there is a “sidekick” BBQ unit that attaches to the side rear. I use this a lot to make toast and grill up quick burgers and what not. Life in the field, doesn’t have to be harsh! It’s certainly not 5-star accommodations, but the views can’t be beat!</p>
+    
+    
+ <Image alt="Todd Lambert Web development for photographers" filename="overlanding3.jpg" />
+    <h3>Conclusion</h3>
+    <p>I’ve successfully managed, living in this through Colorado snow storms, Utah sandstorms, Oregon rainstorms, you name it, this setup has not failed me yet.</p> 
+    
+</div>
+ </div>
+      
+      
+      
+
 
        <div className="container">
               <h2 className="">
