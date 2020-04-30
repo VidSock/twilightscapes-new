@@ -1,6 +1,7 @@
 import React from 'react'
 import Layout from '../components/Layout'
 import Helmet from 'react-helmet'
+import Image from '../components/Image'
 import ScrollAnimation from 'react-animate-on-scroll'
 
 
