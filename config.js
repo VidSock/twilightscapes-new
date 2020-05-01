@@ -1,5 +1,5 @@
 module.exports = {
-  siteTitle: 'Follow Me Into The Night | Unique Photography by Twilightscapes', // Site title.
+  siteTitle: 'Follow Me Into The Night | Unique Photography by Todd Lambert', // Site title.
   siteTitleAlt: 'Todd Lambert', // Alternative site title for SEO.
   siteLogo: '/icons/icon-512x512.png', // Logo used for SEO and manifest.
   siteUrl: 'https://twilightscapes.com', // Domain of your website without pathPrefix.
@@ -13,7 +13,7 @@ module.exports = {
   userTwitter: 'toddlambert',
   userLocation: 'Gulf Coast, USA',
   userDescription: '',
-  copyright: 'Copyright © Todd Lambert Enterprises 1999-2019. All Rights Reserved.', // Copyright string for the footer of the website and RSS feed.
+  copyright: 'Copyright © Todd Lambert Enterprises 1999-2020. All Rights Reserved.', // Copyright string for the footer of the website and RSS feed.
   themeColor: '#dd4000', // Used for setting manifest and progress theme colors.
   backgroundColor: '#222222', // Used for setting manifest background color.
 }
