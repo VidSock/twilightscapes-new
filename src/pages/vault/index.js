@@ -71,12 +71,12 @@ const VaultPage = () => {
 <span className="has-app"><GalleryMenu /></span>
 
 
-<ScrollAnimation animateIn="fadeOut" initiallyVisible={true} delay={0} animateOnce={true} animatePreScroll={false} style={{display:'flex',alignItems:'center', justifyContent:'center',}}>
+<ScrollAnimation animateIn="fadeOut" initiallyVisible={true} delay={0} animateOnce={true} animatePreScroll={false} style={{display:'flex', display:'none', alignItems:'center', justifyContent:'center',}}>
   <h4 className="has-app" style={{color:'#fff', fontSize:'100%', textAlign:'center', display:'flex', backgroundColor:'#222', padding:'0px 10px', borderRadius:'10px', border:'1px solid #999', position:'absolute', bottom:'50px', zIndex:'1', opacity:'.9',}}><FiZoomIn style={{fontSize:'150%', position:'relative', top:'3px', left:'-4px',}} />Click To Zoom</h4>
   </ScrollAnimation>
   
 
-      <div className="container no-app" style={{margin:'2rem 0', background:'#111', textAlign:'center',}}>
+      <div className="container no-app" style={{margin:'2rem 0', background:'#111', color:'#fff', textAlign:'center',}}>
 <h3>You need to install our FREE web app to view this</h3>
       </div>
       
