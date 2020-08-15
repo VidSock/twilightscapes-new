@@ -8,7 +8,7 @@ import ScrollAnimation from 'react-animate-on-scroll'
 import GalleryMenu from '../../components/GalleryMenu'
 import { FiZoomIn } from 'react-icons/fi'
 // import PopSemi from '../../components/PopSemi'
-
+import SlidePanelHome1 from '../../components/slidePanelCase'
 import styled from "styled-components"
 const CustomBox = styled.div`
 
@@ -91,13 +91,13 @@ const Gal1Page = () => {
     <Install/>
 
 
+      <SlidePanelHome1 />
       
-      
-<div className="zoomer" style={{paddingTop:'0', display:'flex',alignItems:'center', justifyContent:'center',}}>
+{/* <div className="zoomer" style={{paddingTop:'0', display:'flex',alignItems:'center', justifyContent:'center',}}>
       <h4 style={{display:'flex', color:'#fff', fontSize:'100%', textAlign:'center', backgroundColor:'#222', padding:'5px 10px', borderRadius:'10px', border:'1px solid #999', position:'fixed', bottom:'50px', zIndex:'1', opacity:'.9',}}><FiZoomIn style={{fontSize:'150%', position:'relative', top:'0px', left:'-4px',}} />Click To Zoom</h4>
-</div>
+</div> */}
 
-      <GalleryMenu />
+      {/* <GalleryMenu />
 
       
       <ScrollAnimation animateIn="fadeIn" initiallyVisible={false} delay={700} animateOnce={true} animatePreScroll={true}>
@@ -111,7 +111,7 @@ const Gal1Page = () => {
     
 
       
-       <GalleryMenu />
+       <GalleryMenu /> */}
 
       
       

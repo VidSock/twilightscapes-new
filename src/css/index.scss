@@ -11,6 +11,8 @@ $red: #ff0000;
 
 #herohead .headroom-wrapper{height:0 !important; position:relative;}
 
+//  modal overflow fix
+.modal-content{overflow:hidden !important;}
 
 /* Box sizing rules */
 *,
@@ -169,6 +171,9 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#dd4000', end
 
 .react-images__frame img{margin: 0 auto 0 auto !important;}
 .react-images__header, .react-images__footer{background:none !important;}
+
+//  modal overflow fix
+.modal-content{overflow:hidden !important;}
 
 .modal-btn {
     display: block;
@@ -1609,7 +1614,7 @@ margin: 0 !important;
 
 
 
-
+.gatsby-image-wrapper{position: initial !important;}
 
 h2.todd-headline{font-size:16px;}
 
@@ -1630,3 +1635,116 @@ padding:0 !important;
 
 
 
+
+
+
+
+
+body.dark .homecontent {
+  background-color: #333;
+  color: #f9f9fa; 
+  box-shadow: inherit;
+  margin-bottom:0 !important;
+}
+
+
+body.light .homecontent {
+  background-color: #f7f1f3;
+  color: #333333; 
+  box-shadow: inherit;
+  margin-bottom:0 !important;
+}
+
+
+@keyframes fade {
+  0%{
+        opacity: 0;
+     }
+  
+     
+     100% {
+        opacity:1;
+     }
+  
+  }
+  
+
+  .zoomer{animation: zoomer 1s forwards;
+    animation-delay: 4s;}
+    
+  @keyframes zoomer {
+  0% {
+  height:100%;
+  opacity:100;
+  }
+  
+  100% {
+  height:0;
+  opacity: 0;   	
+  }
+  }
+
+
+  .touchup{animation: touchup 3s forwards;
+    position:absolute;
+    bottom:8vh;
+    right:5vw;
+    opacity:0;
+    scale: .8;
+    animation-delay: 1.5s;
+    z-index:1;
+    filter: drop-shadow(3px 0px 0rem #444);
+    color:#fff
+  }
+
+    
+@keyframes touchup {
+0% {
+	height:8vh;
+  opacity:.8;
+  transform: scale(1);
+  }
+  10%{
+    opacity:.8;
+    height:6vh;
+    transform: scale(.8);
+    z-index:1;
+  }
+
+  15%{
+    opacity:1;
+    height:5vh;
+    transform: scale(1);
+    z-index:1;
+  }
+
+  20%{
+    opacity:.8;
+    height:7vh;
+    transform: scale(1);
+    z-index:1;
+  }
+  
+  85% {
+    height:40vh;
+    opacity: 1;
+    transform: scale(1);
+    z-index:1;
+    }
+
+100% {
+    
+    opacity: 0;  
+    height:42vh;
+    transform: scale(1.4);	
+    filter: blur(1px);
+    z-index:0;
+	}
+}
+
+
+body.light .shout span, body.light .shout span{color:#fff !important;}
+body.dark .shout span{color:#333 !important;}
+
+body.light .slidepanel > div{border-color:#fff !important;}
+body.dark .slidepanel > div{border-color:#333 !important;}
