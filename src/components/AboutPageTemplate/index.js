@@ -114,7 +114,7 @@ const AboutPageTemplate = ({ title, content, contentComponent }) => {
     
     
     
-    <section className="about outer intro section" style={{paddingTop:'0', overflow:'hidden',}}>
+    <section className="about outer intro section" style={{paddingTop:'0', overflow:'hidden', marginTop:'15vh'}}>
     
     <ScrollAnimation animateIn="bounceInUp" animateOut="bounceInDown" animateOnce={true} delay={1000}>
       <div className="container" style={{display:'none',}}>
@@ -129,7 +129,7 @@ const AboutPageTemplate = ({ title, content, contentComponent }) => {
       </ScrollAnimation>
       
       
- <div className="split" style={{display:'flex', justifyContent:'center', alignItems:'center', position:'relative', backgroundColor:'#222', width:'92%', margin:'0 auto', padding:'1rem', borderBottom:'4px solid #000', borderTop:'1px solid #000', boxShadow:'0px 0px 20px 0px #000', borderRadius:'0 0 20px 20px', overflow:'',}}>
+ <div className="split" style={{display:'flex', justifyContent:'center', alignItems:'center', position:'relative', backgroundColor:'#222', width:'92%', margin:'0 auto', padding:'1rem', borderBottom:'4px solid #000', borderTop:'1px solid #000', boxShadow:'0px 0px 20px 0px #000', borderRadius:'20px', overflow:'',}}>
 
  
  <ScrollAnimation animateIn="" animateOut="" initiallyVisible={true} animateOnce={true} animatePreScroll={true} delay={0} style={{width:'60%',}}>    

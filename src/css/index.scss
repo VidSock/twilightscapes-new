@@ -988,6 +988,8 @@ input:matches([type="checkbox"]){color:#ff0000 !important;}
 
 .outer .innerpanel{padding:0 20px 0 20px !important;}
 
+.outer{ margin-top:60px !important;}
+
 .half {
  justify-content: space-around;
  width:100%;
@@ -1166,7 +1168,7 @@ input.special {max-width: 50%;}
 
 div.columns{ padding:1rem;}
 
-.outer .container{padding:1rem; margin:1rem 12%;  border-radius: 10px; }
+.outer .container{padding:1rem; margin:15vh 12%;  border-radius: 10px; }
 
 .footer .outer .container{padding:0; margin:1rem; border:0px solid #f0eded;  border-radius: 10px; background:inherit;}
 
