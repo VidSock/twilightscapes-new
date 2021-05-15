@@ -158,7 +158,7 @@ const Navbar2 = class extends React.Component {
 
 <header className="header" style={{zIndex:'2', position:'fixed', paddingTop:'2%',}}>
     <Link to="/" className="logolinker" title="Logo - Back To Home">
-    <img id="logo" className="logo rollIn" src={logo} alt="Ad2Inc Logo" style={{position:'absolute', width:'', left:'20px'}} />
+    <img id="logo" className="logo rollIn" src={logo} alt="Twilightscapes Logo" style={{position:'absolute', width:'', left:'20px'}} />
     {/* <Image alt="Temp Graphic" filename="ad2inc-logo-round.png" /> */}
    </Link>
 </header>
@@ -210,7 +210,7 @@ const Navbar2 = class extends React.Component {
 
 
       <li>
-      <Link id="portfolio" className="navbar-item txtshadow" to="/gear/">Gear Talk<span>Al the technical details</span></Link>
+      <Link id="portfolio" className="navbar-item txtshadow" to="/gear/">Gear Talk<span>All the technical details</span></Link>
        </li>
 
 
