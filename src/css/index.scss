@@ -12,7 +12,7 @@ $red: #ff0000;
 #herohead .headroom-wrapper{height:0 !important; position:relative;}
 
 //  modal overflow fix
-.modal-content{overflow:hidden !important;}
+.modal-content, .news-container{overflow:hidden !important;}
 
 /* Box sizing rules */
 *,

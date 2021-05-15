@@ -116,7 +116,7 @@ const CustomBox = styled.div`
       pointer-events: auto;
       cursor: auto;
       visibility: visible; 
-      overflow: scroll;
+      // overflow: scroll;
 
  
       @media (max-width: 400px) { left: 0; }                   
