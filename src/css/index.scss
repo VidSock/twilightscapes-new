@@ -1350,12 +1350,13 @@ body.light .txtshadow-3d{text-shadow: 1px 8px 2px #666;}
 
 // Theme switcher
 
-.react-images__positioner{z-index: 2 !important;}
-
+.react-images__positioner{z-index: 3 !important;}
+.react-images__footer__count{width:100%;}
+// .react-images__blanket{z-index: 3 !important;}
 
 // Header
 
-.react-images__blanket{background-color:#222 !important; opacity: 1 !important; z-index: 2 !important;}
+.react-images__blanket{background-color:#222 !important; opacity: 1 !important; z-index: 3 !important;}
 
 .headroom{z-index: 2 !important;}
 .headroom {
