@@ -156,7 +156,7 @@ const Navbar2 = class extends React.Component {
 <Headroom style={{ zIndex: '5', }}>
 
 
-<header className="header" style={{zIndex:'2', position:'fixed', paddingTop:'2%',}}>
+<header className="header" style={{zIndex:'2', position:'fixed', paddingTop:'3%',}}>
     <Link to="/" className="logolinker" title="Logo - Back To Home">
     <img id="logo" className="logo rollIn" src={logo} alt="Twilightscapes Logo" style={{position:'absolute', width:'', left:'20px'}} />
     {/* <Image alt="Temp Graphic" filename="ad2inc-logo-round.png" /> */}
